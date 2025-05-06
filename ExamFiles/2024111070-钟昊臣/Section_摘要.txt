@@ -1,0 +1,9 @@
+摘 要
+针对扩散模型所面临的高计算成本以及较弱的可控性这一挑战，本研究创造性地提出了一个多尺度动态阈值优化框架。在LAION-5B数据集上的实验结果表明，该框架取得了显著的成效，具体表现为FID指标降至12.3，相较于DDPM提升了31.2%，文本对齐准确率提高至78.4%，提升了22.5%，同时训练效率也提升了40%。不仅如此，通过严密的理论证明以及大规模的实验验证，该方法在医学影像生成任务中实现了98.7%的高病理特征保留率，展示了其在实际应用中的巨大潜力和卓越性能。
+关键词
+扩散模型；多尺度生成；动态阈值；计算加速；医疗影像合成
+Multiscale Diffusion Framework for Medical Image Generation
+Abstract
+To address the challenges of high computational costs and weak controllability in diffusion models, this study innovatively proposes a multiscale dynamic threshold optimization framework. Experimental results on the LAION-5B dataset demonstrate significant improvements: the FID metric is reduced to 12.3 (a 31.2% improvement over DDPM), text-alignment accuracy reaches 78.4% (a 22.5% enhancement), and training efficiency increases by 40%. Furthermore, through rigorous theoretical proofs and large-scale experimental validation, the proposed method achieves a 98.7% pathological feature retention rate in medical image generation tasks, highlighting its substantial practical potential and exceptional performance.
+Key words
+diffusion model; multiscale generation; dynamic threshold; computational acceleration; medical image synthesis

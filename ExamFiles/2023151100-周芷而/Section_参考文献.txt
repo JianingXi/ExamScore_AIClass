@@ -1,0 +1,22 @@
+参考文献：
+[1] J, et al. TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation. IEEE TMI 2021.
+[2] 国家卫健委. 人工智能医疗器械审评要点. 2022.
+[3] Berk B Ozmen,Navigating FDA Regulations for the Development of Artificial Intelligence Technologies in Plastic Surgery, Aesthetic Surgery Journal, (2025).
+[4] Zhang L J, et al. A Clinically Applicable Deep Learning Model for Intracranial Aneurysm Detection. Nature Communications 2023.
+[5] Christian Endisch,Katharina Millard,Sandra Preuß,Werner Stenzel,Jens Nee,Christian Storm,
+Christoph J. Ploner, Christoph Leithner,
+Duration of resuscitation, regain of consciousness and histopathological severity of hypoxic-ischemic encephalopathy after cardiac arrest,Resuscitation Plus,23,(100945),(2025).
+[6] 王国豫, 等. 人工智能医学影像伦理手册. 上海科技出版社, 2023.
+[7] Hansen A E, Henriksen J R, Jølck R I, et al.Multimodal soft tissue markers for bridging high-resolution diagnostic imaging with therapeutic intervention[J].Science Advances,2020, 6 (34): eabb5353.
+[8]国家药监局. 人工智能医疗器械审评要点. 2022.
+[9] Chen C, et al. TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation. IEEE TMI 2021.
+[10] 国家卫生健康委员会. 人工智能医疗器械质量要求与评价指南. 中国标准出版社, 2022.
+[11]NVIDIA Research Team. VISTA3D: A Unified Segmentation Foundation Model for 3D Medical Imaging[J]. arXiv, 2024.
+[12]Shanghai Jiao Tong University Team. PnPNet: Plug-and-Play Boundary-Aware Network for 3D Medical Image Segmentation[C]. MICCAI, 2023.
+[13] Kim J, Heo D, Cho S, et al.Enhanced dual-mode imaging: Superior photoacoustic and ultrasound endoscopy in live pigs using a transparent ultrasound transducer[J].Science Advances,2024, 10 (47): eadq9960.
+[14]Peking University Team. Digital Kidney Atlas via Multi-Modal Imaging and AI[J]. Nature Biomedical Engineering, 2025.
+[15]China University of Geosciences Team. ConDSeg: Contrast-Driven Medical Image Segmentation Framework[C]. AAAI, 2025.
+[16] Song Y, Tay R Y, Li J, et al.3D-printed epifluidic electronic skin for machine learning–powered multimodal health surveillance[J].Science Advances,2023, 9 (37): eadi6492.
+[18]Wang Lihui, Qin Yongbin. State of the Art and Future Perspectives of the Applications of Deep Learning in the Medical Image Analysis[J]. Big Data Research, 2020.
+[19]Zhou Z, et al. Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation[C]. ECCV, 2022.
+[20]Chen H, et al. RED-CNN: A Residual Encoder-Decoder Network for Low-Dose CT Image Denoising[J]. IEEE Transactions on Medical Imaging, 2021.

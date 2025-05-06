@@ -1,0 +1,14 @@
+Tom B. Brown, Benjamin Mann, Nick Ryder et al.. Language Models are Few-Shot Learners. arXiv. 2020.
+Aditya Ramesh, Mikhail Pavlov, Gabriel Goh et al.. Zero-Shot Text-to-Image Generation. arXiv. 2021.
+Rombach Robin, Blattmann Andreas, Lorenz Dominik et al.. High-Resolution Image Synthesis with Latent Diffusion Models. 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2022.
+Jumper John, Evans Richard, Pritzel Alexander et al.. Highly accurate protein structure prediction with AlphaFold. Nature. 2021.
+李 悦. Analysis of the Distinguishing between Words and Meanings in “Wenxin Diaolong”. Chinese Traditional Culture. 2024.
+Goodfellow Ian, Pouget-Abadie Jean, Mirza Mehdi et al.. Generative adversarial networks. Communications of the ACM. 2020.
+Li Jie, Jia Junjie, Xu Donglai. Unsupervised Representation Learning of Image-Based Plant Disease with Deep Convolutional Generative Adversarial Networks. 2018 37th Chinese Control Conference (CCC). 2018.
+Bynagari Naresh Babu. GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium. Asian Journal of Applied Science and Engineering. 2019.
+Isola Phillip, Zhu Jun-Yan, Zhou Tinghui et al.. Image-to-Image Translation with Conditional Adversarial Networks. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2017.
+Zhang Han, Xu Tao, Li Hongsheng et al.. StackGAN: Text to Photo-Realistic Image Synthesis with Stacked Generative Adversarial Networks. 2017 IEEE International Conference on Computer Vision (ICCV). 2017.
+Yao Zhongwei, Dong Hao, Liu Fangde et al.. Conditional Image Synthesis Using Stacked Auxiliary Classifier Generative Adversarial Networks. Advances in Intelligent Systems and Computing. 2019.
+Karras Tero, Laine Samuli, Aila Timo. A Style-Based Generator Architecture for Generative Adversarial Networks. 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2019.
+Karras Tero, Laine Samuli, Aittala Miika et al.. Analyzing and Improving the Image Quality of StyleGAN. 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2020.
+Tero Karras, Miika Aittala, Janne Hellsten et al.. Training Generative Adversarial Networks with Limited Data. arXiv. 2020.

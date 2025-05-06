@@ -1,0 +1,1 @@
+[5] Zhang H, Goodfellow I, Metaxas D, et al. Self - attention generative adversarial networks [C]//International conference on learning representations. 2019.

@@ -1,0 +1,3 @@
+[2] Google Health. Multi-modal Transformer for Cancer Diagnosis. Nature Medicine, 2021, 27(5): 858-865.
+[6] Li X, et al. Meta-Learning for Medical Image Analysis with Limited Data. Nat Mach Intell, 2022, 4(3): 235-244.
+[7] Chen Z, et al. Explainable AI in Medical Imaging: A Review. Pattern Recognit, 2023, 139: 109415.

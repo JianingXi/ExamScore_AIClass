@@ -1,0 +1,22 @@
+参 考 文 献
+[1]	J. Chen et al., "TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation," ed. Ithaca: Ithaca: Cornell University Library, arXiv.org, 2021.
+[2]	Y. Wang et al., "SwinMM: Masked Multi-view with Swin Transformers for 3D Medical Image Segmentation," vol. 14222, T. Syeda-Mahmood et al. Eds. Switzerland: Switzerland: Springer, 2023, pp. 486-496.
+[3]	L. Y, "Lightweight Medical Image Segmentation via Quantization Distillation," Medical Image Analysis, 2024.
+[4]	"Medical Image Management Global Market Report 2023: Growing Demand for Medical Imaging Equipment Bolsters Sector," NASDAQ OMX's News Release Distribution Channel, 2023.
+[5]	H. Hadidi, R. Kamali, and A. Binesh, "Investigation of the aquaporin‐2 gating mechanism with molecular dynamics simulations," Proteins, vol. 89, no. 7, pp. 819-831, 2021, doi: 10.1002/prot.26061.
+[6]	F. Isensee, P. F. Jaeger, S. A. A. Kohl, J. Petersen, and K. H. Maier-Hein, "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation," Nat Methods, vol. 18, no. 2, pp. 203-211, 2021, doi: 10.1038/s41592-020-01008-z.
+[7]	P. Avella et al., "Real-Time Navigation in Liver Surgery Through Indocyanine Green Fluorescence: An Updated Analysis of Worldwide Protocols and Applications," Cancers (Basel), vol. 17, no. 5, p. 872, 2025, doi: 10.3390/cancers17050872.
+[8]	W. Weng and X. Zhu, "INet: Convolutional Networks for Biomedical Image Segmentation," Access, vol. 9, pp. 16591-16603, 2021, doi: 10.1109/ACCESS.2021.3053408.
+[9]	L. R. Lima and L. L. Godeiro, "Equity‐premium prediction: Attention is all you need," Journal of applied econometrics (Chichester, England), vol. 38, no. 1, pp. 105-122, 2023, doi: 10.1002/jae.2939.
+[10]	A. Dosovitskiy et al., "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale," ed. Ithaca: Ithaca: Cornell University Library, arXiv.org, 2021.
+[11]	J. Zhou, S. Wang, H. Wang, Y. Li, and X. Li, "Multi-Modality Fusion and Tumor Sub-Component Relationship Ensemble Network for Brain Tumor Segmentation," Bioengineering (Basel), vol. 12, no. 2, p. 159, 2025, doi: 10.3390/bioengineering12020159.
+[12]	H. Kaiming, Z. Xiangyu, R. Shaoqing, and S. Jian, "Deep Residual Learning for Image Recognition," 2016: IEEE, pp. 770-778, doi: 10.1109/CVPR.2016.90.
+[13]	T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollar, "Focal Loss for Dense Object Detection," TPAMI, vol. 42, no. 2, pp. 318-327, 2020, doi: 10.1109/TPAMI.2018.2858826.
+[14]	P. Xu, X. Zhu, and D. A. Clifton, "Multimodal Learning With Transformers: A Survey," TPAMI, vol. 45, no. 10, pp. 12113-12132, 2023, doi: 10.1109/TPAMI.2023.3275156.
+[15]	Y. R. M. Reddy, P. Muralidhar, G. N. V. Satya Narayana, and D. Jagan, "FPGA(ZCU104) Based Energy Efficient Accelerator for MobileNet-V1," 2024: IEEE, pp. 57-62, doi: 10.1109/CSPA60979.2024.10525375.
+[16]	Z. Liu, Q. Lv, Z. Yang, Y. Li, L. Chau Hung, and L. Shen, "Recent Progress in Transformer-based Medical Image Analysis," arXiv.org, 2023, doi: 10.48550/arxiv.2208.06643.
+[17]	G. Suman et al., "Development of a volumetric pancreas segmentation CT dataset for AI applications through trained technologists: a study during the COVID 19 containment phase," Abdom Radiol, vol. 45, no. 12, pp. 4302-4310, 2020, doi: 10.1007/s00261-020-02741-x.
+[18]	M. Manthe, S. Duffner, and C. Lartizien, "Federated brain tumor segmentation: An extensive benchmark," Med Image Anal, vol. 97, p. 103270, 2024, doi: 10.1016/j.media.2024.103270.
+[19]	J. Cohen, Statistical Power Analysis for the Behavioral Sciences, Rev. ed. Academic Press, 2013.
+[20]	"Supply Of Robotics And Automation Lab Equipment - Humanoid Robot, Ai Development Based Unmanned Arial Vehicle Uav, Mother Board, Camera, Audio, Motor, Color: Dark Gray, A Charger, A User Guide Book, A Lan Cable, Inbuilt Battery ,hexapod, Developer Kit Wi," MENA Report, 2022.
+[21]	Y.-X. Yang et al., "First implementation of artificial intelligence empowered all-in-one radiotherapy workflow for nasopharyngeal carcinoma," ASCO MEETING ABSTRACTS, vol. 42, no. 23_suppl, pp. 134-134, 2024, doi: 10.1200/JCO.2024.42.23_suppl.134.

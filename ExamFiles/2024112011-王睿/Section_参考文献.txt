@@ -1,0 +1,9 @@
+参考文献
+[1] Brown T B, Mann B, Ryder N, et al. Language models are few - shot learners [J]. Advances in neural information processing systems, 2020, 33: 1877 - 1901.
+[2]Dosovitskiy A, Beyer L, Kolesnikov A, et al. An image is worth 16x16 words: Transformers for image recognition at scale [J]. arXiv preprint arXiv:2010.11929, 2020.
+[3]Jumper J, Evans R, Pritzel A, et al. Highly accurate protein structure prediction with AlphaFold [J]. Nature, 2021, 596 (7873): 583 - 589.
+[4]国务院关于印发新一代人工智能发展规划的通知 [EB/OL]. [2017 - 07 - 20]. http://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm.
+[5]Vaswani A, Shazeer N, Parmar N, et al. Attention is all you need[C]//Advances in neural information processing systems. 2017: 5998 - 6008.
+[6] Devlin J, Chang M W, Lee K, et al. BERT: Pre - training of deep bidirectional transformers for language understanding[J]. arXiv preprint arXiv:1810.04805, 2018.
+[7]Redmon J, Farhadi A. YOLOv3: An incremental improvement[J]. arXiv preprint arXiv:1804.02767, 2018.
+[8] Ren S, He K, Girshick R, et al. Faster R - CNN: Towards real - time object detection with region proposal networks[C]//Advances in neural information processing systems. 2015: 91 - 99.

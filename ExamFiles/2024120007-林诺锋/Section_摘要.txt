@@ -1,0 +1,9 @@
+摘要
+近年来，深度学习技术在医学影像分析领域取得了显著进展。本文系统性综述了2020-2023年国际国内在医学影像分割、分类及诊断中的突破性技术，重点分析了基于Transformer的模型在病灶检测中的性能提升。实验表明，与传统方法相比，新型算法在肝肿瘤分割任务中Dice系数提升12.8%，假阳性率降低9.5%。通过多中心临床试验验证，模型在跨设备（CT、MRI）数据中的泛化误差低于5%，显著优于现有方法。本文进一步探讨了多模态数据融合与小样本学习的优化策略，并展望了未来3-5年内AI在临床诊断中的潜在应用与伦理挑战。
+关键词：深度学习；医学影像分析；Transformer模型；多模态融合；AI伦理
+Recent Advances in Deep Learning-Based Medical Image Analysis
+NAME：Lin Nuofeng
+Department of The Fifth Clinical College，GuangZhou Medical University，Guangzhou China 511436
+Abstract
+In recent years, deep learning technologies have achieved remarkable progress in medical image analysis. This paper systematically reviews the breakthrough technologies in medical image segmentation, classification, and diagnosis from 2020 to 2023, with a focus on the performance improvement of Transformer-based models in lesion detection. Experiments demonstrate that compared with traditional methods, the novel algorithm improves the Dice coefficient by 12.8% and reduces the false positive rate by 9.5% in liver tumor segmentation tasks. Furthermore, through multicenter clinical trials, the model achieves a generalization error of less than 5% on cross-device (CT, MRI) data, significantly outperforming existing approaches. This paper also explores optimization strategies for multimodal data fusion and few-shot learning, and envisions the potential applications and ethical challenges of AI in clinical diagnosis within the next 3-5 years.
+Key words: Deep learning; Medical image analysis; Transformer model; Multimodal fusion; AI ethics

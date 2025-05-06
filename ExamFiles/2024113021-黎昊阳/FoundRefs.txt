@@ -1,0 +1,10 @@
+Chol Ji, Gun Cha Ryong. Multi-agent based scheduling method for tandem automated guided vehicle systems. Engineering Applications of Artificial Intelligence. 2023.
+Chen Jinwen, Zhang Xiaoli, Peng Xiafu et al.. Efficient routing for multi-AGV based on optimized Ant-agent. Computers &amp; Industrial Engineering. 2022.
+Zhou Zhuo, Xu Liyun, Qin Haoran et al.. A multi-AGV fast path planning method based on improved CBS algorithm in workshops. Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science. 2024.
+秦 前伟. The Reinforcement Learning Algorithm for Cooperative Multi-Agent. Operations Research and Fuzziology. 2022.
+王 梅芳. Multi-AGV Path Planning in Warehousing Based on Multi-Agent Deep Reinforcement Learning. Modeling and Simulation. 2023.
+朱帅, 林士飏. 强化学习动态路径规划降低建筑构件运输的研究与应用. 中国科学与技术学报. 2025.
+Sharon Guni, Stern Roni, Felner Ariel et al.. Conflict-based search for optimal multi-agent pathfinding. Artificial Intelligence. 2015.
+Zhang Jinming, Wang Xun, Xu Lianrui et al.. An Occupancy Information Grid Model for Path Planning of Intelligent Robots. ISPRS International Journal of Geo-Information. 2022.
+He Yu, Liu Ying-Tian, Jin Yi-Han et al.. Context-Consistent Generation of Indoor Virtual Environments Based on Geometry Constraints. IEEE Transactions on Visualization and Computer Graphics. 2022.
+Wang Hanfu, Chen Weidong. Multi-Robot Path Planning With Due Times. IEEE Robotics and Automation Letters. 2022.

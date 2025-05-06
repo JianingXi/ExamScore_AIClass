@@ -1,0 +1,14 @@
+Irvin Jeremy, Rajpurkar Pranav, Ko Michael et al.. CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison. Proceedings of the AAAI Conference on Artificial Intelligence. 2019.
+勇 李. 人工智能在医学影像中的研究与应用. 国际全科医学. 2023.
+薄　众, 张宏莉. 人工智能在医学影像辅助诊断中的应用综述. 临床医学前沿. 2023.
+Wang Zhihua, Yu Lequan, Ding Xin et al.. Shared-Specific Feature Learning With Bottleneck Fusion Transformer for Multi-Modal Whole Slide Image Analysis. IEEE Transactions on Medical Imaging. 2023.
+. . . .
+勇 李. 医学影像技术与医学影像诊断的关系探讨. 国际全科医学. 2023.
+Santomartino Samantha M., Hafezi-Nejad Nima, Parekh Vishwa S. et al.. Performance and Usability of Code-Free Deep Learning for Chest Radiograph Classification, Object Detection, and Segmentation. Radiology: Artificial Intelligence. 2023.
+Mundt Martin, Hong Yongwon, Pliushch Iuliia et al.. A wholistic view of continual learning with deep neural networks: Forgotten lessons and the bridge to active and open world learning. Neural Networks. 2023.
+勇 李. 人工智能在医学影像中的研究与应用. 国际全科医学. 2023.
+英 秦, 瑞 刘. 皮肤白斑的中医治疗. 国际护理与健康. 2023.
+LIU BO, SHI CHAO-SHU, ZHOU DONG-FANG et al.. INFLUENCE OF Gd3+ AND Y3+-DOPING ON LOW TEMPERATURE  THERMOLUMINESCENCE OF Pb WO_4. Acta Physica Sinica. 2001.
+. . . .
+Heaton Jeff. Ian Goodfellow, Yoshua Bengio, and Aaron Courville: Deep learning. Genetic Programming and Evolvable Machines. 2018.
+. . . .

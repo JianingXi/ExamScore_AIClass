@@ -1,0 +1,9 @@
+Madaan Aman, Zhou Shuyan, Alon Uri et al.. Language Models of Code are Few-Shot Commonsense Learners. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing. 2022.
+Hugo Touvron, Thibaut Lavril, Gautier Izacard et al.. LLaMA: Open and Efficient Foundation Language Models. arXiv. 2023.
+Lee Jieh-Sheng. InstructPatentGPT: training patent language models to follow instructions with human feedback. Artificial Intelligence and Law. 2024.
+Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch et al.. Training Compute-Optimal Large Language Models. arXiv. 2022.
+Jason Wei, Yi Tay, Rishi Bommasani et al.. Emergent Abilities of Large Language Models. arXiv. 2022.
+Condylios Steve. gitGPT: Automated Git Commit Messages using the 'OpenAI' 'GPT' Model. CRAN: Contributed Packages. 2023.
+Madaan Aman, Zhou Shuyan, Alon Uri et al.. Language Models of Code are Few-Shot Commonsense Learners. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing. 2022.
+None, 李 金阳, 金 明哲 et al.. 基于预训练语言模型的股市变动预测的分析. 人工智能研究. 2023.
+王旭杰, 羽 王. 大语言模型在数字图书馆中的文本挖掘与信息检索优化. 电子通信与计算机科学. 2024.

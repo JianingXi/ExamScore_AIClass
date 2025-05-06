@@ -1,0 +1,7 @@
+Gulshan V, Rajan RP, Widner K et al.. Performance of a Deep-Learning Algorithm vs Manual Grading for Detecting Diabetic Retinopathy in India.. JAMA ophthalmology. 2019 Sep 1.
+Esteva Andre, Kuprel Brett, Novoa Roberto A. et al.. Erratum: Corrigendum: Dermatologist-level classification of skin cancer with deep neural networks. Nature. 2017.
+Zoga Adam, Syed Ali. Artificial Intelligence in Radiology: Current Technology and Future Directions. Seminars in Musculoskeletal Radiology. 2018.
+Ardila Diego, Kiraly Atilla P., Bharadwaj Sujeeth et al.. Author Correction: End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography. Nature Medicine. 2019.
+Topol Eric J.. High-performance medicine: the convergence of human and artificial intelligence. Nature Medicine. 2019.
+McKinney Scott Mayer, Sieniek Marcin, Godbole Varun et al.. Addendum: International evaluation of an AI system for breast cancer screening. Nature. 2020.
+Gulshan Varun, Peng Lily, Coram Marc et al.. Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs. JAMA. 2016.

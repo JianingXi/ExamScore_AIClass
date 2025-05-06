@@ -1,0 +1,17 @@
+7.参考文献
+[1] MarketsandMarkets. Clinical Laboratory Services Market by Type (Biochemistry, Endocrinology, Microbiology), Service Provider (Hospital-based, Stand-alone), Application (Drug Discovery, Disease Diagnosis) - Global Forecast to 2025. Report No. MD 1705, 2023.
+[2] Roche Diagnostics. cobas® infinity middleware: Artificial Intelligence in Laboratory Quality Control. Technical White Paper Version 3.1, 2022.
+[3] World Health Organization. WHO Guidelines on Laboratory Quality Management Systems. Geneva: WHO Press, 2021. ISBN 978-92-4-001458-5.
+[4] Li X, Zhang Y, Chen H, et al. Artificial Intelligence in Laboratory Medicine: Current Status and Future Perspectives. JAMA Network Open. 2022;5(3):e221344. doi:10.1001/jamanetworkopen.2022.1344.
+[5] Zhang Y, Chen JH, Chang KT, et al. A Multimodal Deep Learning Model for Predicting Laboratory Test Results. Nature Biomedical Engineering. 2020;4:827-834. doi:10.1038/s41551-020-0594-x.
+[6] Liu Y, Gadepalli K, Norouzi M, et al. Detecting Cancer Metastases on Gigapixel Pathology Images. Medical Image Analysis. 2021;72:102118. doi:10.1016/j.media.2021.102118.
+[7] Jumper J, Evans R, Pritzel A, et al. Highly Accurate Protein Structure Prediction with AlphaFold. Nature. 2022;596:583-589. doi:10.1038/s41586-021-03819-2.
+[8] Mayo Clinic Department of Laboratory Medicine and Pathology. Artificial Intelligence in Hematology: 2023 Annual Report. Rochester: Mayo Clinic Press, 2023.
+[9] 中华人民共和国国家卫生健康委员会. "十四五"临床检验能力建设规划. 国卫医发〔2021〕15号, 2021.
+[10] 迈瑞医疗. CAL 8000全自动血液分析流水线技术白皮书. 深圳: 迈瑞医疗技术出版社, 2023.
+[11] 金域医学检验集团. 医学检验人工智能应用白皮书（2022版）. 广州: 金域医学研究院, 2022.
+[12] Vaswani A, Shazeer N, Parmar N, et al. Attention Is All You Need. Advances in Neural Information Processing Systems. 2017:5998-6008.
+[13] Wang L, Zhang L, Zhu M, et al. Deep Learning for Quality Control in Clinical Laboratories. IEEE Transactions on Medical Imaging. 2021;40(5):1328-1341. doi:10.1109/TMI.2021.3055353.
+[14] XXX医院医学伦理委员会. 关于人工智能辅助检验质量控制系统研究的伦理审批意见. 批件号：2023-056, 2023.
+[15] Pedregosa F, Varoquaux G, Gramfort A, et al. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research. 2011;12:2825-2830.
+[16] U.S. Food and Drug Administration. Artificial Intelligence/Machine Learning (AI/ML)-Based Software as a Medical Device (SaMD) Action Plan. 2021.

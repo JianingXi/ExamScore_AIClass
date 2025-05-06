@@ -1,0 +1,8 @@
+六、参考文献
+[1] Goodfellow I, Pouget - Abadie J, Mirza M, et al. Generative Adversarial Nets[C]//Advances in neural information processing systems. 2014: 2672 - 2680.
+[2] Karras T, Laine S, Aila T. A Style - Based Generator Architecture for Generative Adversarial Networks[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2019: 4401 - 4410.
+[3] Nichol A, Dhariwal P. GLIDE: Towards Photorealistic Image Generation and Editing with Text - Guided Diffusion Models[J]. arXiv preprint arXiv:2112.10741, 2021.
+[4] Ramesh A, Dhariwal P, Nichol A, et al. Zero - Shot Text - to - Image Generation[J]. arXiv preprint arXiv:2102.12092, 2021.
+[5] Abdal R, Qin Y, Wonka P. ImageGen: High - Fidelity Image Generation Using Diffusion Models with Generative Adversarial Training[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023: 15873 - 15882.
+[6] Wang Z, Bovik A C, Sheikh H R, et al. Image quality assessment: from error visibility to structural similarity[J]. IEEE transactions on image processing, 2004, 13(4): 600 - 612.
+[7] Zhou Q, Zhao D, Wang Y, et al. Medical Image Inpainting via Generative Adversarial Networks[C]//International Conference on Medical Image Computing and Computer - Assisted Intervention. Springer, Cham, 2018: 60 - 68.

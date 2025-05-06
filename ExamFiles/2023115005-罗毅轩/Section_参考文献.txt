@@ -1,0 +1,16 @@
+参考文献​
+[1] Brown T B, Mann B, Ryder N, et al. Language Models are Few-Shot Learners [J]. arXiv preprint arXiv:2005.14165, 2020.​
+[2] Ramesh A, Pavlov M, Goh G, et al. Zero-Shot Text-to-Image Generation [J]. arXiv preprint arXiv:2102.12092, 2021.​
+[3] Rombach R, Blattmann A, Lorenz D, et al. High-Resolution Image Synthesis with Latent Diffusion Models [J]. arXiv preprint arXiv:2112.10752, 2022.​
+[4] Jumper J, Evans R, Pritzel A, et al. Highly accurate protein structure prediction with AlphaFold [J]. Nature, 2021, 596 (7873): 583 - 589.​
+[5] 中华人民共和国国务院。新一代人工智能发展规划 [EB/OL]. (2017 - 07 - 20)[2024 - 01 - 01]. http://www.gov.cn/zhengce/content/2017 - 07/20/content_5211996.htm.​
+[6] 百度。文心一言 [EB/OL]. [2024 - 01 - 01]. https://wenxin.baidu.com/.​
+[7] Goodfellow I, Pouget - Abadie J, Mirza M, et al. Generative Adversarial Networks[J]. Advances in neural information processing systems, 2014, 27.​
+[8] Radford A, Metz L, Chintala S. Unsupervised representation learning with deep convolutional generative adversarial networks[J]. arXiv preprint arXiv:1511.06434, 2015.​
+[9] Heusel M, Ramsauer H, Unterthiner T, et al. GANs trained by a two time - scale update rule converge to a local Nash equilibrium[C]//Advances in neural information processing systems. 2017: 6626 - 6637.​
+[10] Isola P, Zhu J Y, Zhou T, et al. Image - to - image translation with conditional adversarial networks[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2017: 1125 - 1134.​
+[11] Zhang H, Xu T, Li H, et al. StackGAN: Text to Photo - Realistic Image Synthesis with Stacked Generative Adversarial Networks[J]. arXiv preprint arXiv:1612.03242, 2016.​
+[12] Odena A, Olah C, Shlens J. Conditional Image Synthesis With Auxiliary Classifier GANs[C]//Advances in neural information processing systems. 2017: 4699 - 4707.​
+[13] Karras T, Laine S, Aila T. A Style - Based Generator Architecture for Generative Adversarial Networks[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2019: 4401 - 4410.​
+[14] Karras T, Aittala M, Laine S, et al. Analyzing and Improving the Image Quality of StyleGAN[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020: 8110 - 8119.​
+[15] Karras T, Laine S, Aittala M, et al. Training Generative Adversarial Networks with Limited Data[J]. arXiv preprint arXiv:2006.06676, 2020.

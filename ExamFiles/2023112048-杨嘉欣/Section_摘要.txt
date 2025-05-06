@@ -1,0 +1,7 @@
+摘  要	联邦学习（Federated Learning）作为分布式人工智能的核心技术，在隐私保护与数据安全领域展现出独特优势。本文系统分析了2020-2023年联邦学习的技术突破，提出了一种基于动态权重聚合的改进联邦平均算法（FedDWA）。实验表明，在医疗影像分类任务中，该算法在5个客户端参与训练时，模型准确率达92.4%，较传统FedAvg提升6.3%；通信开销降低至每轮2.1MB，优化幅度达38%。研究同时揭示了异构数据分布下的模型收敛难题，并提出结合元学习与差分隐私的解决方案。本文为跨机构数据协作提供了理论支持与实践参考。
+关键词	联邦学习；隐私保护；分布式人工智能；动态权重聚合；差分隐私
+Frontiers in Federated Learning for Privacy-Preserving Distributed Artificial Intelligence Applications
+Yang Jiaxi
+1Department of Jinyu Inspection Institute, Guangzhou Medical University, CitGuangzhou, China
+Abstract	Federated Learning (FL), a core technology in distributed artificial intelligence, demonstrates unique advantages in privacy protection and data security. This paper systematically reviews technological advancements in FL from 2020 to 2023 and proposes an improved Federated Averaging algorithm with Dynamic Weight Aggregation (FedDWA). Experimental results show that in medical image classification tasks with 5 clients, the proposed algorithm achieves an accuracy of 92.4%, outperforming traditional FedAvg by 6.3%, while reducing communication overhead to 2.1MB per round (38% optimization). Additionally, this study addresses the challenge of model convergence under heterogeneous data distribution and proposes a solution integrating meta-learning with differential privacy. This work provides theoretical and practical insights for cross-institutional data collaboration.
+Key words	Federated learning; Privacy preservation; Distributed AI; Dynamic weight aggregation; Differential privacy

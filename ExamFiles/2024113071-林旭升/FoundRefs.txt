@@ -1,0 +1,6 @@
+Jiang Yifan, Manem Venkata S. K.. Data augmented lung cancer prediction framework using the nested case control NLST cohort. Frontiers in Oncology. 2025.
+Fasi Massimiliano, Higham Nicholas J., Mikaitis Mantas et al.. Numerical behavior of NVIDIA tensor cores. PeerJ Computer Science. 2021.
+Jiang Yifan, Manem Venkata S. K.. Data augmented lung cancer prediction framework using the nested case control NLST cohort. Frontiers in Oncology. 2025.
+Xu Jing, Ren Haojie, Cai Shenzhou et al.. An improved faster R-CNN algorithm for assisted detection of lung nodules. Computers in Biology and Medicine. 2023.
+Wahab Muhammad Farooq, O'Haver Thomas C.. Wavelet transforms in separation science for denoising and peak overlap detection. Journal of Separation Science. 2020.
+Klein S., Staring M., Murphy K. et al.. elastix: A Toolbox for Intensity-Based Medical Image Registration. IEEE Transactions on Medical Imaging. 2010.

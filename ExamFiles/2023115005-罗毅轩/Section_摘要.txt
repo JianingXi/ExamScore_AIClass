@@ -1,0 +1,7 @@
+摘要：本论文聚焦生成式人工智能前沿技术，系统阐述其研究背景、科学问题及研究意义。通过梳理 2020 - 2023 年国际突破性技术与国内政策及企业布局，剖析生成式对抗网络（GAN）等核心算法原理。在实验部分，收集 100 条猫图像数据，基于 PyTorch 使用 GAN 模型训练，交叉验证结果显示生成图像与真实图像相似度平均准确率达 85%，较传统方法在时间复杂度降低 60%，准确率提升 40% 。研究成果为生成式人工智能技术优化及应用拓展提供理论与实践参考。​
+关键词：生成式人工智能；生成式对抗网络；自然语言处理；计算机视觉；多模态生成​
+Research and Practice on Cutting - Edge Technologies of Generative Artificial Intelligence​
+Zhang San​
+1Department of Computer Science and Technology, University, Beijing 100083, China​
+Abstract: This paper focuses on the cutting - edge technologies of generative artificial intelligence, systematically expounding its research background, scientific problems, and research significance. By combing the international breakthrough technologies from 2020 to 2023 and the domestic policies and enterprise layouts, the principles of core algorithms such as Generative Adversarial Networks (GAN) are analyzed. In the experimental part, 100 cat image data were collected and trained using the GAN model based on PyTorch. The cross - validation results show that the average accuracy of the similarity between the generated images and the real images reaches 85%, reducing the time complexity by 60% and increasing the accuracy by 40% compared with traditional methods. The research results provide theoretical and practical references for the optimization and application expansion of generative artificial intelligence technology.​
+Key words: Generative artificial intelligence; Generative adversarial network; Natural language processing; Computer vision; Multimodal generation​

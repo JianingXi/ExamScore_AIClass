@@ -1,0 +1,14 @@
+Sarle Warren S., Jain Anil K., Dubes Richard C.. Algorithms for Clustering Data. Technometrics. 1990.
+Melville James. uwot: The Uniform Manifold Approximation and Projection (UMAP) Method for Dimensionality Reduction. CRAN: Contributed Packages. 2019.
+Lin Peijie, Troup Michael, Ho Joshua W. K.. CIDR: Ultrafast and accurate clustering through imputation for single-cell RNA-seq data. Genome Biology. 2017.
+Nie Feiping, Shi Shaojun, Li Jing et al.. Implicit Weight Learning for Multi-View Clustering. IEEE Transactions on Neural Networks and Learning Systems. 2023.
+Xu Jing. 人类卫生健康共同体视域下的全球健康传播话语建构. The Journal of Medicine, Humanity and Media. 2023.
+浩 黄. 医疗大数据分析技术研究进展. 电子通信与计算机科学. 2023.
+陈　航, 谭国华. 人工智能在电力系统安全监控中的应用前景. 电子通信与计算机科学. 2024.
+李大勇, 刘　姜, 付　刚 et al.. 计算机数据库技术在信息管理中的应用研究. 电子通信与计算机科学. 2024.
+Lu Ming-Zhu, Wan Ming-Xi, Shi Yu et al.. 多阵元高强度聚焦超声多目标控制方法研究. Acta Physica Sinica. 2002.
+刘　涛. 信息管理与信息系统中基于深度学习的知识图谱构建与应用研究. 电子通信与计算机科学. 2024.
+丹 谢. 关于大数据安全与隐私保护的研究. 电子通信与计算机科学. 2023.
+陶 亮. 计算机网络技术在电子信息工程中的应用研究. 智能城市应用. 2023.
+燊 王, 鹏 孙, 达 王. 工业机器人技术在自动化控制领域中的应用探究. 机械与电子控制工程. 2022.
+杰 段. 基于智能传感技术的电力电缆实时监测与评估系统. 工程施工新技术. 2025.

@@ -1,0 +1,14 @@
+章瑶 韩莉莎. 人工智能态度测量工具在医学领域中的研究进展. 医学研究. 2024.
+石丽媛. 计算机软件在大数据分析中的应用. 电子通信与计算机科学. 2024.
+Zhang Hao, Wang Qi, Shi Jun et al.. Deep unfolding network with spatial alignment for multi-modal MRI reconstruction. Medical Image Analysis. 2025.
+勇 李. 人工智能在医学影像中的研究与应用. 国际全科医学. 2023.
+王 亚. 人工智能信息处理技术在网络信息检索中的应用. 智能城市应用. 2024.
+Özbay Erdal, Özbay Feyza Altunbey, Gharehchopogh Farhad Soleimanian. Kidney Tumor Classification on CT images using Self-supervised Learning. Computers in Biology and Medicine. 2024.
+Sobhi Navid, Sadeghi-Bazargani Yasin, Mirzaei Majid et al.. Artificial intelligence for early detection of diabetes mellitus complications via retinal imaging. Journal of Diabetes &amp; Metabolic Disorders. 2025.
+赵培培. 医学影像技术在医学影像诊断中的临床应用. 国际全科医学. 2022.
+Litjens Geert, Kooi Thijs, Bejnordi Babak Ehteshami et al.. A survey on deep learning in medical image analysis. Medical Image Analysis. 2017.
+赵容娇, 田　原. 基于信息技术的医疗器械摄像系统图像处理算法研究. 电子通信与计算机科学. 2024.
+任天乐，张江宝，施雨欣，姜奕池 王晨望. 人工智能在医学影像学中的应用及研究进展. 医学研究. 2024.
+Aldosari Bakheet, Aldosari Hanan, Alanazi Abdullah. Challenges of Artificial Intelligence in Medicine. Studies in Health Technology and Informatics. 2025.
+勇 李. 人工智能在医学影像中的研究与应用. 国际全科医学. 2023.
+任天乐，张江宝，施雨欣，姜奕池 王晨望. 人工智能在医学影像学中的应用及研究进展. 医学研究. 2024.

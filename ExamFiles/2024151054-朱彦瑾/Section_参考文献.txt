@@ -1,0 +1,24 @@
+参 考 文 献
+[1]Ma Zewei. Research and application of cross-modal retrieval with multi-layer semantic alignment [D]. Tianjin University of Technology, 2023. DOI:10.27360/d.cnki.gtlgy.2023.000135（马泽伟.多层语义对齐的跨模态检索研究与应用[D].天津理工大学,2023.DOI:10.27360/d.cnki.gtlgy.2023.000135.）
+[2]Weijie Su. Research on efficient training methods for multimodal models [D]. University of Science and Technology of China, 2024. DOI:10.27517/d.cnki.gzkju.2024.000987（苏伟杰.多模态模型高效训练方法研究[D].中国科学技术大学,2024.DOI:10.27517/d.cnki.gzkju.2024.000987.）
+[3]Gao Sitong. Application of multimodal fusion technology in combating deepfake [J]. China Computer & Communication, 2025, 37(02): 185-187.
+(高思童.多模态融合技术在抗深度伪造（Deepfake）中的应用[J].信息与电脑,2025,37(02):185-187.)
+[4]Ding Meirong, Chen Hongye, Zeng Biqing. Multimodal sentiment analysis with cross-modal semantic alignment and information refinement [J]. Computer Engineering and Applications, 2024, 60(22):114-125.
+(丁美荣,陈鸿业,曾碧卿.跨模态语义对齐和信息细化的多模态情感分析[J].计算机工程与应用,2024,60(22):114-125.)
+Zhi Ting. Wenxin Yiyan, "Sharp Blade Unsheathed" in the Era of Generative AI [J]. East China Science and Technology, 2023, (03): 12-13.
+(芝亭.文心一言，“利刃出鞘”生成式AI时代[J].华东科技,2023,(03):12-13.)
+Xue Tianlang, Yue Yutao. Traffic object recognition and retrieval based on text-visual multimodal learning [J/OL]. Computer Applications and Software, 1-10 [2025-04-28]. http://kns.cnki.net/kcms/detail/31.1260.TP.20250416.1054.002.html
+( 薛天朗,岳玉涛.基于文本-视觉多模态学习的交通目标识别与检索[J/OL].计算机应用与软件,1-10[2025-04-28].http://kns.cnki.net/kcms/detail/31.1260.TP.20250416.1054.002.html.)
+Hu Zhengkun, Tan Qin. The application and future prospects of generative AI in the large-scale audiovisual industry—a case study of the "SenseNova" model by SenseTime[J]. Radio & TV Journal, 2024, (04): 27-29+38. DOI: 10.13994/j.cnki.stj.2024.04.040
+(胡正坤,谭覃.生成式AI的大视听产业应用和未来展望——以商汤“日日新SenseNova”大模型为例[J].视听界,2024,(04):27-29+38.DOI:10.13994/j.cnki.stj.2024.04.040.)
+Liu Fan, Wang Fengmei. Reflections on the construction of a multimodal content security review system [J]. China Media Technology, 2023, (04): 149-153. DOI:10.19483/j.cnki.11-4653/n.2023.04.031
+(刘帆,王凤美.多模态内容安全审核系统构建思考[J].中国传媒科技,2023,(04):149-153.DOI:10.19483/j.cnki.11-4653/n.2023.04.031.)
+[9] 李伟钢,Mayara Chew MARINHO,Denise Leyi LI,等.“六书”多模态处理的形声表征以完善汉语语言模型（英文）[J].Frontiers of Information Technology & Electronic Engineering,2024,25(01):84-106.(SCI)
+[10] Jiang Chao, Zhu Xuefang. Research on multimodal rumor detection based on GPT-4 data augmentation and contrastive learning[J]. Library and Information Service, 2024, 68(23):76-87. DOI:10.13266/j.issn.0252-3116.2024.23.007.
+(蒋超,朱学芳.基于GPT-4数据增强与对比学习的多模态谣言检测研究[J].图书情报工作,2024,68(23):76-87.DOI:10.13266/j.issn.0252-3116.2024.23.007.)
+Guo Weijie. Research on efficient retrieval and query of cross-domain and cross-media scientific big data [D]. Beijing University of Posts and Telecommunications, 2021. DOI:10.26969/d.cnki.gbydu.2021.001345.
+(郭伟杰.多领域跨媒体科技大数据高效检索查询研究[D].北京邮电大学,2021.DOI:10.26969/d.cnki.gbydu.2021.001345.)
+[12] Deng Fengyang. Multimodal code semantic information fusion based on federated learning [D]. Huazhong University of Science and Technology, 2023. DOI:10.27157/d.cnki.ghzku.2023.004700.
+(邓丰阳.基于联邦学习的多模态代码语义信息融合[D].华中科技大学,2023.DOI:10.27157/d.cnki.ghzku.2023.004700.)
+Wang Sheng, Song Xianghui, Hu Shixiong, et al. A cross-modal video-text retrieval model based on cross-attention mechanism[J]. Safety, Health & Environment, 2025, 25(03):20-26.
+(王盛,宋向辉,胡世雄,等.一种基于交叉注意力机制的跨模态视频-文本检索模型[J].安全、健康和环境,2025,25(03):20-26.)

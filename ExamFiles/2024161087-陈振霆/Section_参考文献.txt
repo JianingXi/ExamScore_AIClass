@@ -1,0 +1,12 @@
+参 考 文 献
+[1]  Brown T B , Mann B , Ryder N ,et al. Language Models are Few-Shot Learners[J].  2020.DOI:10.48550/arXiv.2005.14165.
+[2] Touvron H, Lavril T, Izacard G, et al. Llama: Open and efficient foundation language models[J]. arXiv preprint arXiv:2302.13971, 2023.
+[3] Ouyang L, Wu J, Jiang X, et al. Training language models to follow instructions with human feedback[J]. Advances in Neural Information Processing Systems, 2022, 35: 27730-27744.
+[4] Vaswani A, Shazeer N, Parmar N, et al. Attention is all you need[J]. Advances in neural information processing systems, 2017, 30.
+[5] Hoffmann J, Borgeaud S, Mensch A, et al. Training compute-optimal large language models[J]. arXiv preprint arXiv:2203.15556, 2022.
+[6] Wei J, Tay Y, Bommasani R, et al. Emergent abilities of large language models[J]. arXiv preprint arXiv:2206.07682, 2022.
+[7] OpenAI. GPT-4 Technical Report[J]. 2023.
+[8] Raffel C, Shazeer N, Roberts K, et al. Exploring the limits of transfer learning with a unified text-to-text transformer[J]. The Journal of Machine Learning Research, 2020, 21(1): 5485-5551.
+[9] Brown T, Mann B, Ryder N, et al. Language models are few-shot learners[J]. Advances in neural information processing systems, 2020, 33: 1877-1901.
+[10] 周明, 李航, 刘知远. 自然语言处理中的预训练模型研究综述[J]. 软件学报, 2021, 32(3): 659-679.
+[11] 王海峰, 吴华, 吴甜. 知识增强的大规模预训练语言模型[J]. 中国科学:信息科学, 2022, 52(3): 345-360.

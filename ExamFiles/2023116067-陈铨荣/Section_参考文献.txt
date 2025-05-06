@@ -1,0 +1,6 @@
+参考文献
+1.	Li, C., et al., Expert consensus on ethical requirements for artificial intelligence (AI) processing medical data. Sheng li xue bao : [Acta physiologica Sinica], 2024. 76(6): p. 937-942.
+2.	Li, S., et al., Progress in biomedical data analysis based on deep learning. Sheng wu yi xue gong cheng xue za zhi = Journal of biomedical engineering = Shengwu yixue gongchengxue zazhi, 2020. 37(2): p. 349-357.
+3.	Wang, X. and Y. Bai, The global Minmax <i>k</i>-means algorithm. Springerplus, 2016. 5.
+4.	Wang, X.-Y., H.-Z. Qu, and X.-D. Fang, Omics big data and medical artificial intelligence. Yi chuan = Hereditas, 2021. 43(10): p. 930-937.
+5.	Ye, Z.C., et al., Challenges in application of artificial intelligence in healthcare field and response strategies. Zhonghua liu xing bing xue za zhi = Zhonghua liuxingbingxue zazhi, 2024. 45(7): p. 1030-1038.

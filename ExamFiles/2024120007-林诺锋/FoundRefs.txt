@@ -1,0 +1,9 @@
+You Mao, None, Xiao Yue et al.. Evaluation and Regulation of Medical Artificial Intelligence Applications in China. Chinese Medical Sciences Journal. 2025.
+The Lancet Digital Health. Accelerating action for gender equality in health. The Lancet Digital Health. 2025.
+Shen Li, Margolies Laurie R., Rothstein Joseph H. et al.. Deep Learning to Improve Breast Cancer Detection on Screening Mammography. Scientific Reports. 2019.
+Chen Xuxin, Zhang Ke, Abdoli Neman et al.. Transformers Improve Breast Cancer Diagnosis from Unregistered Multi-View Mammograms. Diagnostics. 2022.
+Kirillov Alexander, Mintun Eric, Ravi Nikhila et al.. Segment Anything. 2023 IEEE/CVF International Conference on Computer Vision (ICCV). 2023.
+Isensee Fabian, Jaeger Paul F., Kohl Simon A. A. et al.. nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods. 2021.
+Wei-guo~ LI, None, None. A Model for Predicting Protein Content in Winter Wheat Grain Based on Land-Sat TM Image and Nitrogen Accumulation. National Remote Sensing Bulletin. 2008.
+. . . .
+晓 马. 高速公路机电管理及信息化问题分析. 城市建筑与发展. 2022.

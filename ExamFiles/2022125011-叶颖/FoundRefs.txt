@@ -1,0 +1,9 @@
+Rombach Robin, Blattmann Andreas, Lorenz Dominik et al.. High-Resolution Image Synthesis with Latent Diffusion Models. 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2022.
+Madaan Aman, Zhou Shuyan, Alon Uri et al.. Language Models of Code are Few-Shot Commonsense Learners. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing. 2022.
+Hu Junbao, Xu Lifeng, Jiang Jian. 机器学习力场：跨学科应用中的前沿进展与技术挑战. SCIENTIA SINICA Chimica. 2025.
+OpenAi GPT 3.5. Spor ve Teknoloji: Etkileşim ve Dönüşümün Yolculuğu. Dijital Çağda Spor Araştırmaları I. 2023.
+Elmaghalawy Marwa ragheb. 新时代的中国绿色发展 国务院新闻办公室19日发布《新时代的中国绿色发展》白皮书。. آفاق آسيوية. 2023.
+陈 伟东, 冯 登国. 基于口令的安全协议的模块化设计与分析. Science in China Series F-Information Sciences (in Chinese). 2007.
+Tao Huanjie. Erasing-inpainting-based data augmentation using denoising diffusion probabilistic models with limited samples for generalized surface defect inspection. Mechanical Systems and Signal Processing. 2024.
+Wang Hua. Human-Machine Collaboration in Healthcare Investment Integrating Large Language Models. 2024 7th International Conference on Machine Learning and Natural Language Processing (MLNLP). 2024.
+Hao WU, None, Zheng kai LIU et al.. A Study of Bridge Recognition from Landsat TM Images. National Remote Sensing Bulletin. 2003.

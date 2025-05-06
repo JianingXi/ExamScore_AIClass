@@ -1,0 +1,4 @@
+[4]Ding Meirong, Chen Hongye, Zeng Biqing. Multimodal sentiment analysis with cross-modal semantic alignment and information refinement [J]. Computer Engineering and Applications, 2024, 60(22):114-125.
+Liu Fan, Wang Fengmei. Reflections on the construction of a multimodal content security review system [J]. China Media Technology, 2023, (04): 149-153. DOI:10.19483/j.cnki.11-4653/n.2023.04.031
+[10] Jiang Chao, Zhu Xuefang. Research on multimodal rumor detection based on GPT-4 data augmentation and contrastive learning[J]. Library and Information Service, 2024, 68(23):76-87. DOI:10.13266/j.issn.0252-3116.2024.23.007.
+(郭伟杰.多领域跨媒体科技大数据高效检索查询研究[D].北京邮电大学,2021.DOI:10.26969/d.cnki.gbydu.2021.001345.)

@@ -1,0 +1,11 @@
+摘  要
+生成式人工智能（Generative AI）正在引发新一轮产业革命。本研究针对多模态生成式AI中的三个关键挑战：多模态对齐难题、可控生成瓶颈和计算效率低下，提出了基于跨模态注意力机制和渐进式扩散策略的创新解决方案。实验表明，本方法在文本到图像生成任务上实现了23%的准确率提升，推理速度提升2.1倍，FID指标从9.8降低到6.4。在包含50个样本的多模态测试集上验证了方法的有效性，双样本t检验结果显示改进具有统计学显著性（p<0.001）。本研究为多模态内容生成提供了高效可靠的解决方案，在创意设计、数字医疗等领域具有重要应用价值。
+关键词
+生成式人工智能；多模态学习；扩散模型；Transformer；跨模态生成
+Research on Frontier Technologies of Multimodal Generative AI Based on Diffusion Models and Transformer
+YE Ying
+School of Basic Medical Science
+Abstract
+Generative Artificial Intelligence (Generative AI) is triggering a new round of industrial revolution. This study addresses three key challenges in multimodal generative AI: the multimodal alignment problem, controllable generation bottleneck, and computational inefficiency, proposing innovative solutions based on cross-modal attention mechanisms and progressive diffusion strategies. Experiments demonstrate that our method achieves a 23% improvement in accuracy for text-to-image generation tasks, a 2.1× increase in inference speed, and reduces the FID score from 9.8 to 6.4. The effectiveness of the method is validated on a multimodal test set containing 50 samples, with two-sample t-tests showing statistically significant improvements (p<0.001). This research provides an efficient and reliable solution for multimodal content generation, with significant application value in fields such as creative design and digital healthcare.
+Key words
+Generative AI; multimodal learning; diffusion models; Transformer; cross-modal generation

@@ -1,0 +1,4 @@
+Capel Esteban Hernandez, Dumas Jonathan. Denoising Diffusion Probabilistic Models for Probabilistic Energy Forecasting. 2023 IEEE Belgrade PowerTech. 2023.
+Rombach Robin, Blattmann Andreas, Lorenz Dominik et al.. High-Resolution Image Synthesis with Latent Diffusion Models. 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2022.
+. . . .
+Hong Jina, Koo Ja Joon. How efficiency and creativity of image-generating AI affect intent to continue using- centered on OpenAI DALL-E2. Design Convergence Study. 2023.

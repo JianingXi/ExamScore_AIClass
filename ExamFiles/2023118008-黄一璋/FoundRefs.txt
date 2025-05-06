@@ -1,0 +1,3 @@
+Hatamizadeh Ali, Tang Yucheng, Nath Vishwesh et al.. UNETR: Transformers for 3D Medical Image Segmentation. 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). 2022.
+Tu Tao, Azizi Shekoofeh, Driess Danny et al.. Towards Generalist Biomedical AI. NEJM AI. 2024.
+魏立斌, 段云鹏, 王宇乐. 计算机通信技术在电子信息工程中的应用研究. 电子通信与计算机科学. 2024.

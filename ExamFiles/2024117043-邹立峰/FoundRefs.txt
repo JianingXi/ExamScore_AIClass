@@ -1,0 +1,9 @@
+Mariano Bernardo. Towards a global strategy on digital health. Bulletin of the World Health Organization. 2020.
+Rieke Nicola, Hancox Jonny, Li Wenqi et al.. The future of digital health with federated learning. npj Digital Medicine. 2020.
+McCarthy Nicholas, Dahlan Adil, Cook Tessa S. et al.. Enterprise imaging and big data: A review from a medical physics perspective. Physica Medica. 2021.
+Sheller Micah J., Reina G. Anthony, Edwards Brandon et al.. Multi-institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation. Lecture Notes in Computer Science. 2019.
+Lundberg Scott M., Erion Gabriel, Chen Hugh et al.. From local explanations to global understanding with explainable AI for trees. Nature Machine Intelligence. 2020.
+Bonawitz Kallista, Kairouz Peter, McMahan Brendan et al.. Federated Learning and Privacy. Queue. 2021.
+Liu Yun, Kohlberger Timo, Norouzi Mohammad et al.. Artificial Intelligence–Based Breast Cancer Nodal Metastasis Detection: Insights Into the Black Box for Pathologists. Archives of Pathology &amp; Laboratory Medicine. 2019.
+张正初. 居民画像数据应用背景下的个人隐私保护问题初探. 电子通信与计算机科学. 2022.
+郭 晓杰. Design and Implementation of Breast Cancer Multi Level Diagnosis System Based on Deep Learning. Modeling and Simulation. 2025.

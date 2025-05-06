@@ -1,0 +1,9 @@
+Madaan Aman, Zhou Shuyan, Alon Uri et al.. Language Models of Code are Few-Shot Commonsense Learners. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing. 2022.
+Tewel Yoad, Shalev Yoav, Schwartz Idan et al.. ZeroCap: Zero-Shot Image-to-Text Generation for Visual-Semantic Arithmetic. 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2022.
+Yariv Guy, Gat Itai, Wolf Lior et al.. Adaptation of Text-Conditioned Diffusion Models for Audio-to-Image Generation. INTERSPEECH 2023. 2023.
+Jumper John, Evans Richard, Pritzel Alexander et al.. Highly accurate protein structure prediction with AlphaFold. Nature. 2021.
+Condylios Steve. gitGPT: Automated Git Commit Messages using the 'OpenAI' 'GPT' Model. CRAN: Contributed Packages. 2023.
+Xu Minkai, Liu Meng, Jin Wengong et al.. Graph and Geometry Generative Modeling for Drug Discovery. Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2023.
+Papineni Kishore, Roukos Salim, Ward Todd et al.. BLEU. Proceedings of the 40th Annual Meeting on Association for Computational Linguistics  - ACL '02. 2001.
+Nandy Abhilash, Kulkarni Yash, Goyal Pawan et al.. Order-Based Pre-training Strategies for Procedural Text Understanding. Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers). 2024.
+Diederik P. Kingma, Jimmy Ba. Adam: A Method for Stochastic Optimization. arXiv. 2014.

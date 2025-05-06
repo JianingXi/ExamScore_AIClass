@@ -1,0 +1,10 @@
+Liu Shuyu, Zhou Jingjing, Zhu Xuequan et al.. An objective quantitative diagnosis of depression using a local-to-global multimodal fusion graph neural network. Patterns. 2024.
+孟 静. 基于“互联网+”党建信息化系统的管理模式探索与应用. 现代经济管理. 2021.
+Gao Yuan, Ventura-Diaz Sofia, Wang Xin et al.. An explainable longitudinal multi-modal fusion model for predicting neoadjuvant therapy response in women with breast cancer. Nature Communications. 2024.
+王 明金. Research on Fault Diagnosis of Automobile Charging Pile Based on Multi-Modal Fusion. Modeling and Simulation. 2023.
+Zhou Hong-Yu, Yu Yizhou, Wang Chengdi et al.. A transformer-based representation-learning model with unified processing of multimodal input for clinical diagnostics. Nature Biomedical Engineering. 2023.
+Duan Mengyao, Mao Boyan, Li Zijian et al.. Feasibility of tongue image detection for coronary artery disease: based on deep learning. Frontiers in Cardiovascular Medicine. 2024.
+Jiang Ce, Lü Zuoyong, Fang Lihua. 融合处理速度和加速度记录的地震检测模型及其在新丰江水库的应用. Earth Science-Journal of China University of Geosciences. 2024.
+Shao Jun, Ma Jiechao, Yu Yizhou et al.. A multimodal integration pipeline for accurate diagnosis, pathogen identification, and prognosis prediction of pulmonary infections. The Innovation. 2024.
+张丹阳. 基于大数据分析的矿山机械设备运行状态智能诊断系统设计. 机械与电子控制工程. 2024.
+石志杰. 5G在广播电视技术领域中的应用与前景分析. 现代工程项目管理. 2022.

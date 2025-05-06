@@ -1,0 +1,16 @@
+六、参考文献
+[1] Goodfellow I, Pouget - Abadie J, Mirza M, et al. Generative adversarial nets [C]//Advances in neural information processing systems. 2014: 2672 - 2680.
+[2] Ronneberger O, Fischer P, Brox T. U - Net: Convolutional Networks for Biomedical Image Segmentation [C]//International Conference on Medical image computing and computer - assisted intervention. Springer, Cham, 2015: 234 - 241.
+[3] Isola P, Zhu J Y, Zhou T, et al. Image - to - image translation with conditional adversarial networks [C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2017: 1125 - 1134.
+[4] Wang X, Girshick R, Gupta A, et al. Non - local neural networks [C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2018: 7794 - 7803.
+[5] Zhang H, Goodfellow I, Metaxas D, et al. Self - attention generative adversarial networks [C]//International conference on learning representations. 2019.
+[6] 李明，张伟。基于生成式对抗网络的图像语义分割研究进展 [J]. 计算机科学，2021, 48 (3): 1 - 8.
+[7] 王强，刘芳。深度学习在图像语义分割中的应用 [J]. 电子技术应用，2020, 46 (5): 1 - 5.
+[8] Radford A, Metz L, Chintala S. Unsupervised representation learning with deep convolutional generative adversarial networks [J]. arXiv preprint arXiv:1511.06434, 2015.
+[9] Mirza M, Osindero S. Conditional generative adversarial nets [J]. arXiv preprint arXiv:1411.1784, 2014.
+[10] He K, Zhang X, Ren S, et al. Deep residual learning for image recognition [C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2016: 770 - 778.
+[11] Redmon J, Farhadi A. YOLO9000: better, faster, stronger [C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2017: 7263 - 7271.
+[12] Lin T Y, Dollár P, Girshick R, et al. Feature pyramid networks for object detection [C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2017: 2099 - 2107.
+[13] Long J, Shelhamer E, Darrell T. Fully convolutional networks for semantic segmentation [C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2015: 3431 - 3440.
+[14] Chen L C, Papandreou G, Kokkinos I, et al. Deeplab: semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected crfs [J]. IEEE transactions on pattern analysis and machine intelligence, 2018, 40 (4): 834 - 848.
+[15] Caruana R, Niculescu - Mizil A. An empirical comparison of supervised learning algorithms [C]//Proceedings of the 23rd international conference on machine learning. 2006: 161 - 168.

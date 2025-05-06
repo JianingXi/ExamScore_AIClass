@@ -1,0 +1,4 @@
+Lira Hernan, Martí Luis, Sanchez-Pi Nayat. A Graph Neural Network with Spatio-Temporal Attention for Multi-Sources Time Series Data: An Application to Frost Forecast. Sensors. 2022.
+Ghamisi Pedram, Gloaguen Richard, Atkinson Peter M. et al.. Multisource and Multitemporal Data Fusion in Remote Sensing: A Comprehensive Review of the State of the Art. IEEE Geoscience and Remote Sensing Magazine. 2019.
+Qiying Yu, Yang Liu, Yimu Wang et al.. Multimodal Federated Learning via Contrastive Representation Ensemble. arXiv. 2023.
+Liu Ziwei. Multi-Modal Generative AI with Foundation Models. Proceedings of the 2nd Workshop on Large Generative Models Meet Multimodal Applications. 2024.

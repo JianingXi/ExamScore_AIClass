@@ -1,0 +1,2 @@
+Wang Xiaoyan, Bai Yanping. The global Minmax k-means algorithm. SpringerPlus. 2016.
+Esmaeilzadeh Pouyan. Challenges and strategies for wide-scale artificial intelligence (AI) deployment in healthcare practices: A perspective for healthcare organizations. Artificial Intelligence in Medicine. 2024.

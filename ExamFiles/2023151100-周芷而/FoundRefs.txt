@@ -1,0 +1,21 @@
+Chen Tao, Jiang Daguang, Li Ruirui. Swin Transformers Make Strong Contextual Encoders for VHR Image Road Extraction. IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium. 2022.
+齐爱国. 智能电网建设中电力工程技术应用要点. 机械与电子控制工程. 2022.
+Ozmen Berk B. Navigating FDA Regulations for the Development of Artificial Intelligence Technologies in Plastic Surgery. Aesthetic Surgery Journal. 2025.
+Shi Zhao, Miao Chongchang, Schoepf U. Joseph et al.. A clinically applicable deep-learning model for detecting intracranial aneurysm in computed tomography angiography images. Nature Communications. 2020.
+Endisch Christian, Millard Katharina, Preuß Sandra et al.. Histopathological patterns of hypoxic-ischemic encephalopathy after cardiac arrest: A retrospective brain autopsy study of 319 patients. Resuscitation. 2025.
+Endisch C, Millard K, Preuß S et al.. Histopathological patterns of hypoxic-ischemic encephalopathy after cardiac arrest: A retrospective brain autopsy study of 319 patients.. Resuscitation. 2025 Apr 15.
+Endisch Christian, Millard Katharina, Preuß Sandra et al.. Duration of resuscitation, regain of consciousness and histopathological severity of hypoxic-ischemic encephalopathy after cardiac arrest. Resuscitation Plus. 2025.
+勇 李. 人工智能在医学影像中的研究与应用. 国际全科医学. 2023.
+Hansen Anders E., Henriksen Jonas R., Jølck Rasmus I. et al.. Multimodal soft tissue markers for bridging high-resolution diagnostic imaging with therapeutic intervention. Science Advances. 2020.
+. . . .
+Chen Tao, Jiang Daguang, Li Ruirui. Swin Transformers Make Strong Contextual Encoders for VHR Image Road Extraction. IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium. 2022.
+冯敬敬. 中医妇科管理中中医特色护理质量评价体系的建立与成效. 国际护理与健康. 2022.
+Li Hao, Liu Han, Hu Dewei et al.. Promise: Prompt-Driven 3D Medical Image Segmentation Using Pretrained Image Foundation Models. 2024 IEEE International Symposium on Biomedical Imaging (ISBI). 2024.
+None, Wang Kechen, Wen Xin et al.. Investigation of modified sweeping jet film cooling on turbine vane. Proceedings of Global Power &amp; Propulsion Society. 2023.
+Kim Jaewoo, Heo Dasom, Cho Seonghee et al.. Enhanced dual-mode imaging: Superior photoacoustic and ultrasound endoscopy in live pigs using a transparent ultrasound transducer. Science Advances. 2024.
+QIN Bolin, GAO Jiahong, None et al.. Current status and perspectives of ultrahigh-field magnetic resonance imaging. Acta Physica Sinica. 2025.
+Lei Mengqi, Wu Haochen, Lv Xinhua et al.. ConDSeg: A General Medical Image Segmentation Framework via Contrast-Driven Feature Enhancement. Proceedings of the AAAI Conference on Artificial Intelligence. 2025.
+Song Yu, Tay Roland Yingjie, Li Jiahong et al.. 3D-printed epifluidic electronic skin for machine learning–powered multimodal health surveillance. Science Advances. 2023.
+Kundu Soumya Snigdha. A Distributed Deep Learning Framework for Federated Big Medical Image Analysis. 2021 IEEE International Conference on Big Data (Big Data). 2021.
+Cao Hu, Wang Yueyue, Chen Joy et al.. Swin-Unet: Unet-Like Pure Transformer for Medical Image Segmentation. Lecture Notes in Computer Science. 2023.
+Chen Hu, Zhang Yi, Kalra Mannudeep K. et al.. Low-Dose CT With a Residual Encoder-Decoder Convolutional Neural Network. IEEE Transactions on Medical Imaging. 2017.

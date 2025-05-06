@@ -1,0 +1,11 @@
+参考文献
+1.	倪钦如, 欧全宏, 时有明, 刘超, 左烨豪, 智兆星, 任先培, and 刘刚 (2025). 人体血清拉曼光谱结合六种机器学习算法对肺癌的诊断研究. 光谱学与光谱分析 45, 685-691.
+2.	谭笑枫, 李夕海, 牛超, 曾小牛, 李鸿儒, and 刘天佑 (2024). 基于MVIDA算法和MS-SE-Res Net的次声事件分类方法（英文）. Applied Geophysics 21, 667-679+878-879.
+3.	LI, B., QI, Y., WANG, Y., and HAN, Y. (2025). Attar: RRAM-based in-memory attention accelerator with software-hardware co-optimization. Science China(Information Sciences) 68, 371-387.
+4.	LIU, X., HOU, F., QIN, H., and HAO, A. (2017). A CADe system for nodule detection in thoracic CT images based on artificial neural network. Science China(Information Sciences) 60, 177-194.
+5.	赵大哲, 杨金柱, and 徐心和 (2006). 一种基于多层CT影像的肺部结节分割方法. 电子学报, 2478-2480.
+6.	郭小超, and 王霄英 (2021). 美国放射学院医学影像学适用性评估标准解读. 中国医学影像技术 37, 136-138. 10.13929/j.issn.1003-3289.2021.01.033.
+7.	杨慧芳. AI医学图像处理, 1 Edition (人民邮电出版社).
+8.	Zhou, B., Chang, J., Li, J., Hong, J., Wang, T., Zhang, L., Zhou, P., and Ma, C. (2024). Study of the reaction mechanism for preparing powdered activated coke with SO2 adsorption capability via one-step rapid activation method under flue gas atmosphere. Chinese Journal of Chemical Engineering 65, 158-168.
+9.	王天尧, and 李剑锋 (2022). 深度学习在蛋白质结构预测中的应用及启示. 高分子学报 53, 581-591.
+10.	汪斌超, 李., 姚连昌,刘丽华,朱元珏 (2001). 痰标本检测p53基因突变及其在肺癌早期临床诊断中的意义(英文). Chinese Medical Journal, 22-25+103.

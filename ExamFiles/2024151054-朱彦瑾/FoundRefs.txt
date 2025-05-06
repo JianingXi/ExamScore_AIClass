@@ -1,0 +1,18 @@
+Guo Jinyi, Ding Jieyu. Robust cross-modal retrieval with alignment refurbishment. Frontiers of Information Technology &amp; Electronic Engineering. 2023.
+Anitha A., Saju Lis Maria, Kamaraj Balakrishnan. Deepfake Detection using XAI based Deep Fusion Models. 2025 2nd International Conference on Computational Intelligence, Communication Technology and Networking (CICTN). 2025.
+唐 贵宏. 高校思政课与移动信息技术深度融合的耦合与进路. 经济学. 2019.
+陈　薇. 计算机应用技术对企业信息化的影响. 电子通信与计算机科学. 2023.
+Henke Justus. Navigating the AI era: university communication strategies and perspectives on generative AI tools. Journal of Science Communication. 2024.
+魏 华. 水利安全生产标准化创建措施及成效. 水电科技. 2024.
+ZHANG Jing. Video retrieval model based on multimodal information fusion. Journal of Computer Applications. 2008.
+王孝强, 张金钰. 基于项目学习的办公软件应用教学模式构建与实施. 电子通信与计算机科学. 2024.
+Zhang Lansheng, Hang Zheyi, Hu Huan. Toward Large-scale Application of a Bio-Inspired MEMS Optical Hair Flow Sensor Array. 2024 IEEE SENSORS. 2024.
+王 树义. 区域视角下的应用型日语专业人才培养模式优化研究——以保定学院为例. 教学方法创新与实践. 2021.
+刘 莉莉. The Multimodal Construction of Attitudinal Meaning—A Case Study of the 2016 US Presidential Televised Debate. Modern Linguistics. 2023.
+Weigang Li, Marinho Mayara Chew, Li Denise Leyi et al.. Six-Writings multimodal processing with pictophonetic coding to enhance Chinese language models. Frontiers of Information Technology &amp; Electronic Engineering. 2024.
+桐 李, 朱海强. 基于大数据的仪表电气性能预测与优化. 工程学研究与实用. 2025.
+None, Yang Shaolong, Xu Jianchun et al.. Progress on Very/Ultra Low Frequency Mechanical Antennas. ES Materials &amp; Manufacturing. 2021.
+Qi Pian, Chiaro Diletta, Piccialli Francesco. FL-FD: Federated learning-based fall detection with multimodal data fusion. Information Fusion. 2023.
+顾江华. 基于机器学习的多源消息融合策略研究. 电子通信与计算机科学. 2024.
+Du Wanru, Jing Xiaochuan, Zhu Quan et al.. A cross-modal conditional mechanism based on attention for text-video retrieval. Mathematical Biosciences and Engineering. 2023.
+文 必成. Visual Question Answering Model Based on Cross Memory Attention. Computer Science and Application. 2023.

@@ -1,0 +1,14 @@
+Goodfellow Ian, Pouget-Abadie Jean, Mirza Mehdi et al.. Generative adversarial networks. Communications of the ACM. 2020.
+Ronneberger Olaf, Fischer Philipp, Brox Thomas. U-Net: Convolutional Networks for Biomedical Image Segmentation. Lecture Notes in Computer Science. 2015.
+Isola Phillip, Zhu Jun-Yan, Zhou Tinghui et al.. Image-to-Image Translation with Conditional Adversarial Networks. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2017.
+Wang Xiaolong, Girshick Ross, Gupta Abhinav et al.. Non-local Neural Networks. 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2018.
+贾树文, 杨婷婷. 基于生成对抗网络的海底低光照图像增强算法研究. 电子通信与计算机科学. 2024.
+刘启东. 储能技术在电力系统深度调峰中的应运与研究. 水利电力技术与应用. 2025.
+Li Jie, Jia Junjie, Xu Donglai. Unsupervised Representation Learning of Image-Based Plant Disease with Deep Convolutional Generative Adversarial Networks. 2018 37th Chinese Control Conference (CCC). 2018.
+Mehdi Mirza, Simon Osindero. Conditional Generative Adversarial Nets. arXiv. 2014.
+He Kaiming, Zhang Xiangyu, Ren Shaoqing et al.. Deep Residual Learning for Image Recognition. 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2016.
+Redmon Joseph, Farhadi Ali. YOLO9000: Better, Faster, Stronger. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2017.
+Lin Tsung-Yi, Dollar Piotr, Girshick Ross et al.. Feature Pyramid Networks for Object Detection. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2017.
+Long Jonathan, Shelhamer Evan, Darrell Trevor. Fully convolutional networks for semantic segmentation. 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2015.
+Chen Liang-Chieh, Papandreou George, Kokkinos Iasonas et al.. DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs. IEEE Transactions on Pattern Analysis and Machine Intelligence. 2018.
+Caruana Rich, Niculescu-Mizil Alexandru. An empirical comparison of supervised learning algorithms. Proceedings of the 23rd international conference on Machine learning  - ICML '06. 2006.

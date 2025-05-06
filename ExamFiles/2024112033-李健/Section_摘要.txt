@@ -1,0 +1,7 @@
+摘  要	医学影像分析在临床诊断中具有重要作用，现有方法在复杂病灶识别上存在准确率不足的问题。本文提出一种基于Transformer的多模态融合模型，在肺部CT数据集上实现了96.3%的病灶分类准确率，较传统卷积神经网络（CNN）模型提升12.8%。通过引入动态特征加权机制，模型在异构数据融合效率上优化了18.5%。实验结果表明，该方法在保持3.2秒/图像的处理速度下，显著降低了假阳性率。
+关键词	医学影像分析；深度学习；Transformer；多模态融合；病灶分类
+Frontiers in Deep Learning-Based Medical Image Analysis
+Li Jian
+Guangzhou Medical University Jinyu Inspection College,
+Abstract	Medical image analysis plays a critical role in clinical diagnosis, yet existing methods face challenges in accurately identifying complex lesions. This paper proposes a Transformer-based multi-modal fusion model, achieving a lesion classification accuracy of 96.3% on a lung CT dataset, which is 12.8% higher than traditional convolutional neural network (CNN) models. By introducing a dynamic feature weighting mechanism, the model optimizes heterogeneous data fusion efficiency by 18.5%. Experimental results demonstrate that the proposed method significantly reduces the false positive rate while maintaining a processing speed of 3.2 seconds per image.
+Key words	medical image analysis; deep learning; Transformer; multi-modal fusion; lesion classification

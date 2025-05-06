@@ -1,0 +1,7 @@
+摘  要	在医疗数据与人工智能深度融合的时代，数据隐私与模型协同训练的矛盾突出。联邦学习成为破局关键，本研究深入剖析其在医疗领域的应用，针对数据异质性、通信效率及隐私保护难题提出创新策略。通过收集200例多源医疗数据，运用Python及主流库开展实验，结果表明改进后的联邦学习模型在准确率提升18%的同时，通信成本降低40%，有效验证了策略的有效性，为医疗数据安全高效利用提供有力支撑。
+关键词	联邦学习；医疗数据；隐私保护；模型协同；通信优化
+Federated Learning Drives the Release of the Value of Medical Data: Strategies for the Collaboration of Privacy Enhancement and Model Efficiency
+SITIAN LI
+law major, GZHMU,GuangZhou, China
+Abstract	In the era of the deep integration of medical data and artificial intelligence, the contradiction between data privacy and collaborative model training is prominent. Federated learning has become the key to solving this problem. This research deeply analyzes its application in the medical field and proposes innovative strategies for the challenges of data heterogeneity, communication efficiency, and privacy protection. By collecting 200 cases of multi - source medical data and conducting experiments using Python and mainstream libraries, the results show that the improved federated learning model has increased the accuracy by 18% and reduced the communication cost by 40%, effectively verifying the effectiveness of the strategies and providing strong support for the secure and efficient use of medical data.
+Key words	Federated learning; Medical data; Privacy protection; Model collaboration; Communication optimization

@@ -1,0 +1,2 @@
+2.	Chowdhery, A., et al., PaLM: Scaling Language Modeling with Pathways. ArXiv, 2022. abs/2204.02311.
+3.	Hoffmann, J., et al., Training Compute-Optimal Large Language Models. ArXiv, 2022. abs/2203.15556.

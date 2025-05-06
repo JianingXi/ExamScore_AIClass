@@ -1,0 +1,14 @@
+. . . .
+Kooi Thijs, Litjens Geert, van Ginneken Bram et al.. Large scale deep learning for computer aided detection of mammographic lesions. Medical Image Analysis. 2017.
+张得仓. 汽车维修管理系统的设计与实现. 电子通信与计算机科学. 2024.
+Atrey Pradeep K., Hossain M. Anwar, El Saddik Abdulmotaleb et al.. Multimodal fusion for multimedia analysis: a survey. Multimedia Systems. 2010.
+Creswell Antonia, White Tom, Dumoulin Vincent et al.. Generative Adversarial Networks: An Overview. IEEE Signal Processing Magazine. 2018.
+Pan Sinno Jialin, Yang Qiang. A Survey on Transfer Learning. IEEE Transactions on Knowledge and Data Engineering. 2010.
+Shaker Abdelrahman, Maaz Muhammad, Rasheed Hanoona et al.. UNETR++: Delving Into Efficient and Accurate 3D Medical Image Segmentation. IEEE Transactions on Medical Imaging. 2024.
+Krizhevsky Alex, Sutskever Ilya, Hinton Geoffrey E.. ImageNet classification with deep convolutional neural networks. Communications of the ACM. 2017.
+石晓婷, 霞 白, 娜 金. 基于云计算的电力传输系统数据处理与分析研究. 电子通信与计算机科学. 2024.
+Liu Jinming, Shi Xiaodi, Zhong Peiwen et al.. 基于肺上皮细胞和交叉验证多模型识别大气细颗粒物中多环芳香类效应组分. Chinese Science Bulletin. 2024.
+徐 奇钊. Comparison of Cross Validation Results of Classification Model Based on Nonparametric Method. Computer Science and Application. 2016.
+赵培培. 医学影像技术在医学影像诊断中的临床应用. 国际全科医学. 2022.
+Kooi Thijs, Litjens Geert, van Ginneken Bram et al.. Large scale deep learning for computer aided detection of mammographic lesions. Medical Image Analysis. 2017.
+白俊卿 张昕晖. 深度学习算法在地质图像识别与解释中的应用研究. 科技创新发展. 2025.
