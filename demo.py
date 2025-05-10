@@ -1,6 +1,6 @@
 from A01_01_UnzipFiles import a01_01_unzip_files
 from A02_01_Docx2Txt import a02_01_docx2txt
-from A02_11_MP4Summary import a02_11_mp4_summary
+from A02_11_VedioSummary import a02_11_video_summary
 from A03_01_VoiceScorer import a03_01_voice_scorer
 from A03_02_PPTScorer import a03_02_ppt_scorer
 from A03_03_MP4Scorer import a03_03_mp4_scorer
@@ -11,18 +11,21 @@ from A04_04_RefineRefError import a04_04_refine_ref_error
 from A04_05_ReportRefError import a04_05_report_ref_error
 from A04_06_ContentTF_IDF import a04_06_content_tf_idf
 from A04_07_ContentEmbOutlier import a04_07_content_emb_outlier
-
-root_dir = r"C:\MyPython\ExamScore_AIClass\ExamFiles"
-
+root_dir = r"G:\作品\科创组"
+"""
 a01_01_unzip_files(root_dir)
+"""
 a02_01_docx2txt(root_dir)
-a02_11_mp4_summary(root_dir)
+
+a02_11_video_summary(root_dir)
+
+"""
 a03_01_voice_scorer(root_dir)
 a03_02_ppt_scorer(root_dir)
 a03_03_mp4_scorer(root_dir)
+"""
 
-
-
+"""
 a04_01_format_scorer(root_dir)
 a04_02_report_main(root_dir)
 
@@ -35,3 +38,5 @@ a04_05_report_ref_error(root_dir)
 
 a04_06_content_tf_idf(root_dir)
 a04_07_content_emb_outlier(root_dir)
+
+"""

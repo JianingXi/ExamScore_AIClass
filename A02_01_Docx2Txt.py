@@ -1,6 +1,39 @@
 import os
 import re
 from docx import Document
+import win32com.client as win32
+
+def convert_doc_to_docx(root_dir):
+    # 启动 Word 应用程序
+    word = win32.Dispatch("Word.Application")
+    word.Visible = False
+
+    for dirpath, _, filenames in os.walk(root_dir):
+        for filename in filenames:
+            if filename.lower().endswith('.doc') and not filename.lower().endswith('.docx'):
+                doc_path = os.path.join(dirpath, filename)
+                docx_path = os.path.join(dirpath, os.path.splitext(filename)[0] + '.docx')
+
+                print(f"正在转换: {doc_path} 到 {docx_path}")
+
+                try:
+                    # 打开 .doc 文件
+                    doc = word.Documents.Open(doc_path)
+                    # 转换为 .docx
+                    doc.SaveAs2(docx_path, FileFormat=16)  # 16 表示 docx 格式
+                    doc.Close()
+
+                    # 删除原始 .doc 文件
+                    os.remove(doc_path)
+                    print(f"转换成功并删除: {doc_path}")
+
+                except Exception as e:
+                    print(f"处理文件时发生错误: {doc_path}\n错误信息: {e}")
+
+    # 退出 Word 应用程序
+    word.Quit()
+
+
 
 # Regex patterns to detect various transcript-like content
 TIMESTAMP_PATTERN = re.compile(r"\d{1,2}:\d{2}(?::\d{2})?")
@@ -152,6 +185,7 @@ def rename_txt_files(folder_path: str):
 def a02_01_docx2txt(BASE_DIR: str):
     # Directory to scan
     # BASE_DIR = r"C:\MyPython\ExamScore_AIClass\ExamFiles"
+    convert_doc_to_docx(BASE_DIR)
 
     for root, dirs, _ in os.walk(BASE_DIR):
         for d in dirs:

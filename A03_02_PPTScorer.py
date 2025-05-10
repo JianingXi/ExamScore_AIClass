@@ -6,6 +6,37 @@ from pptx.shapes.picture import Picture
 import cv2
 import numpy as np
 
+import win32com.client as win32
+
+def convert_ppt_to_pptx(root_dir):
+    # 启动 PowerPoint 应用程序
+    powerpoint = win32.Dispatch("PowerPoint.Application")
+    powerpoint.Visible = False
+
+    for dirpath, _, filenames in os.walk(root_dir):
+        for filename in filenames:
+            if filename.lower().endswith('.ppt') and not filename.lower().endswith('.pptx'):
+                ppt_path = os.path.join(dirpath, filename)
+                pptx_path = os.path.join(dirpath, os.path.splitext(filename)[0] + '.pptx')
+
+                print(f"正在转换: {ppt_path} 到 {pptx_path}")
+
+                try:
+                    # 打开 .ppt 文件
+                    presentation = powerpoint.Presentations.Open(ppt_path)
+                    # 转换为 .pptx
+                    presentation.SaveAs(pptx_path, 24)  # 24 表示 pptx 格式
+                    presentation.Close()
+
+                    # 删除原始 .ppt 文件
+                    os.remove(ppt_path)
+                    print(f"转换成功并删除: {ppt_path}")
+
+                except Exception as e:
+                    print(f"处理文件时发生错误: {ppt_path}\n错误信息: {e}")
+
+    # 退出 PowerPoint 应用程序
+    powerpoint.Quit()
 
 def is_default_office_template(prs: Presentation) -> bool:
     """
@@ -142,6 +173,8 @@ def delete_ppt_files(root_dir):
 
 def a03_02_ppt_scorer(root_dir: str):
     # root_dir = r"C:\MyPython\ExamScore_AIClass\ExamFiles"
+    convert_ppt_to_pptx(root_dir)
+
     base_dir = Path(root_dir)
     for student_folder in base_dir.iterdir():
         if student_folder.is_dir():

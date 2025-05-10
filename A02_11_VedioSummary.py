@@ -10,11 +10,11 @@ from PIL import Image
 def process_videos(base_folder: str):
     """
     对 base_folder 下每个子文件夹：
-      - 如果没有 .mp4，则生成 docx 提示该生未上传汇报视频。
-      - 否则对每个视频：
+      - 如果没有 .mp4 或 .mov 文件，则生成 docx 提示该生未上传汇报视频。
+      - 否则对每个视频（.mp4 和 .mov）：
           1. 获取时长
           2. 按 16 等分时间点截帧并插入文档
-          3. 保存 "<video_stem>_mp4.docx"
+          3. 保存 "<video_stem>_summary.docx"
           4. 删除原始视频
     """
     base_dir = Path(base_folder)
@@ -25,15 +25,19 @@ def process_videos(base_folder: str):
         if not folder.is_dir():
             continue
 
-        mp4_files = list(folder.glob("*.mp4"))
+        video_files = list(folder.glob("*.mp4")) + list(folder.glob("*.mov"))
+
         # 如果没有视频文件，生成提示文档
-        if not mp4_files:
+        if not video_files:
             doc = Document()
-            print(f"文件夹“{folder.name}”中未发现视频")
+            doc.add_paragraph(f"文件夹“{folder.name}”中未发现视频。")
+            doc_path = folder / "未上传视频汇报.docx"
+            doc.save(str(doc_path))
+            print(f"生成提示文档：{doc_path}")
             continue
 
         # 有视频，逐个处理
-        for video_path in mp4_files:
+        for video_path in video_files:
             cap = cv2.VideoCapture(str(video_path))
             fps = cap.get(cv2.CAP_PROP_FPS) or 1
             total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
@@ -41,7 +45,8 @@ def process_videos(base_folder: str):
             timestamps = [(i + 1) * duration / 17 for i in range(16)]
 
             doc = Document()
-            doc.add_paragraph(f"视频时长：{duration:.2f} 秒。")
+            doc.add_paragraph(f"视频文件：{video_path.name}")
+            doc.add_paragraph(f"视频时长：{duration:.2f} 秒")
 
             temp_files = []
             for idx, t in enumerate(timestamps):
@@ -50,18 +55,31 @@ def process_videos(base_folder: str):
                 ret, frame = cap.read()
                 if not ret:
                     continue
+
+                # 截图并保存为临时文件
                 img = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
                 tmp = tempfile.NamedTemporaryFile(suffix=".png", delete=False)
                 img.save(tmp.name)
                 tmp.close()
                 temp_files.append(tmp.name)
+
+                # 将截图插入到文档
                 doc.add_picture(tmp.name, width=Inches(2))
 
             cap.release()
-            docx_path = folder / f"{video_path.stem}_mp4.docx"
+
+            # 保存文档
+            docx_path = folder / f"{video_path.stem}_summary.docx"
             doc.save(str(docx_path))
-            # 删除原视频和临时截图
-            video_path.unlink()
+            print(f"生成文档：{docx_path}")
+
+            # 删除原视频和临时文件
+            try:
+                video_path.unlink()
+                print(f"删除视频文件：{video_path}")
+            except OSError as e:
+                print(f"删除视频文件失败：{video_path}，错误：{e}")
+
             for f in temp_files:
                 try:
                     os.remove(f)
@@ -69,6 +87,8 @@ def process_videos(base_folder: str):
                     pass
 
 
-def a02_11_mp4_summary(base_folder: str):
-    # base_folder = r"C:\MyPython\ExamScore_AIClass\ExamFiles"
+def a02_11_video_summary(base_folder: str):
+    """
+    执行视频处理流程，包括 .mp4 和 .mov 文件格式。
+    """
     process_videos(base_folder)
