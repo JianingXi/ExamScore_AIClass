@@ -9,7 +9,7 @@ from PIL import Image
 
 def process_videos(base_folder: str):
     """
-    对 base_folder 下每个子文件夹：
+    对 base_folder 及其子目录：
       - 如果没有 .mp4 或 .mov 文件，则生成 docx 提示该生未上传汇报视频。
       - 否则对每个视频（.mp4 和 .mov）：
           1. 获取时长
@@ -21,7 +21,7 @@ def process_videos(base_folder: str):
     if not base_dir.is_dir():
         raise ValueError(f"“{base_folder}” 不是有效目录")
 
-    for folder in base_dir.iterdir():
+    for folder in base_dir.rglob('*'):  # 修改为 rglob('*')，扫描所有子目录
         if not folder.is_dir():
             continue
 

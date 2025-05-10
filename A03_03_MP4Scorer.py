@@ -79,20 +79,30 @@ def process_all(base_dir):
     print("MP4Score.txt")
 
 
+def delete_media_docx_files(root_dir):
+    """
+    删除指定目录中的 _mp4.docx, _mov.docx, _avi.docx, _mkv.docx 文件
+    """
+    # 支持的视频格式扩展列表
+    media_extensions = ['_mp4.docx', '_mov.docx', '_avi.docx', '_mkv.docx']
 
-def delete_mp4docx_files(root_dir):
-    for root, dirs, files in os.walk(root_dir):
+    for root, _, files in os.walk(root_dir):
         for file in files:
-            if file.lower().endswith(('_mp4.docx')):
+            # 转小写匹配后缀
+            file_lower = file.lower()
+            # 检查文件是否以指定后缀之一结尾
+            if any(file_lower.endswith(ext) for ext in media_extensions):
                 file_path = os.path.join(root, file)
                 try:
                     os.remove(file_path)
+                    print(f"已删除: {file_path}")
                 except Exception as e:
                     print(f"删除失败 {file_path}: {e}")
+
 
 def a03_03_mp4_scorer(root_dir: str):
     # root_dir = r"C:\MyPython\ExamScore_AIClass\ExamFiles"
     # 将此处路径替换为你的 ExamFiles 目录
     process_all(root_dir)
 
-    delete_mp4docx_files(root_dir)
+    delete_media_docx_files(root_dir)
