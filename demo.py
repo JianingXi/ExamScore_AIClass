@@ -13,7 +13,7 @@ from A04_06_ContentTF_IDF import a04_06_content_tf_idf
 from A04_07_ContentEmbOutlier import a04_07_content_emb_outlier
 
 
-root_dir = r"G:\作品"
+root_dir = r"C:\MyPython\ExamScore_AIClass\作品"
 """
 a01_01_unzip_files(root_dir)
 
@@ -21,13 +21,25 @@ a02_01_docx2txt(root_dir)
 
 a02_11_video_summary(root_dir)
 
-"""
+
 
 a03_01_voice_scorer(root_dir)
 a03_02_ppt_scorer(root_dir)
-
+"""
 
 a03_03_mp4_scorer(root_dir)
+
+
+
+
+
+
+
+
+
+
+
+
 
 """
 
