@@ -76,8 +76,6 @@ def process_all(base_dir):
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(f"Score: {score}/5\nComment: {comment}\n")
 
-    print("MP4Score.txt")
-
 
 def delete_media_docx_files(root_dir):
     """

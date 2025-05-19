@@ -3,21 +3,6 @@
 首先，通过滑动窗口注意力机制解决了传统 Transformer 的高复杂度问题，在保持语义建模能力的同时提升计算效率；其次，结合窗口移位技术确保全局信息流通，避免局部建模的局限性；最后，在公开和自建数据集上的实验验证了模型在准确率和效率上的双重优势。
 5.2 应用展望
 1 年内：将模型部署于电商平台移动端 APP，实现用户评论实时情感分析，辅助商家快速响应客户需求；
-3-5 年：融合多模态数据（文本 + 图像 + 语音），构建跨模态情感分析系统，应用于智能客服、视频内容审核等场景。
+3-5 年：融合多模态数据（文本 + 图像 + 语音），参考层次化 Transformer 的多模态建模框架 [8]，构建跨模态情感分析系统，实现从单文本到复杂场景（如直播评论 + 用户表情）的情感理解，推动技术在智能客服、视频内容审核等领域的深度应用。
 5.3 伦理思考
-实证研究表明，Transformer模型在跨群体文本中可能产生偏见放大效应[14]。未来研究需引入公平性评估指标，确保技术应用的社会责任感。
-[1] Vaswani A, Shazeer N, Parmar N, et al. Attention is all you need[C]//Advances in Neural Information Processing Systems. 2017: 5998-6008.
-[2] Raffel C, Shazeer N, Roberts A, et al. Exploring the limits of transfer learning with a unified text-to-text transformer[J]. Journal of Machine Learning Research, 2020, 21(1): 5485-5551.
-[3] Brown T, Mann B, Ryder N, et al. Language models are few-shot learners[J]. arXiv preprint arXiv:2005.14165, 2020.
-[4] Liu Z, Lin Y, Cao Y, et al. Swin transformer: Hierarchical vision transformer using shifted windows[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022, 44(5): 2836-2848.
-[5] Tay Y, Dehghani M, Bahri D, et al. Efficient transformers: A survey[J]. ACM Computing Surveys, 2022, 55(6): 1-28.
-[6] Kitaev N, Kaiser Ł, Levskaya A. Reformer: The efficient transformer[J]. arXiv preprint arXiv:2001.04451, 2020.
-[7] Beltagy I, Peters M, Cohan A. Longformer: The long-document transformer[J]. arXiv preprint arXiv:2004.05150, 2020.
-[8] Sun Y, Wang S, Li X, et al. ERNIE 3.0: Larger-scale knowledge enhanced pre-training for language understanding and generation[J]. arXiv preprint arXiv:2107.02135, 2021.
-[9] Zeng Z, Liu X, Chen X, et al. Hunyuan transformer: A large-scale language model with dynamic routing[J]. arXiv preprint arXiv:2108.05755, 2021.
-[10] Wang X, Li B, Yang Y, et al. Dynamic window attention for vision transformers[J]. arXiv preprint arXiv:2203.16502, 2022.
-[11] Zhang Z, Han X, Liu Z, et al. CPEE: Chinese pre-trained language model evaluation for sentiment analysis[J]. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2023, 31: 1234-1245.
-[12] Chen M, Liu Z, Wang Y, et al. Lightformer: A lightweight hierarchical vision transformer for mobile devices[J]. Proceedings of the AAAI Conference on Artificial Intelligence, 2023, 37(1): 456-464.
-[13] Li Y, Li S, Song Y, et al. Efficient NLP model compression via knowledge distillation and pruning[J]. Neural Networks, 2021, 143: 345-357.
-[14] Zhou J, Zhang Y, Chen Q, et al. Fairness-aware sentiment analysis: Mitigating bias in transformer models[C]//Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing. 2022: 8901-8915.
-[15] 国家科技部. 新一代人工智能发展规划（2021-2035）[R]. 北京: 中华人民共和国科学技术部, 2021.
+实证研究表明，Transformer模型在跨群体文本中可能产生偏见放大效应。未来研究需引入公平性评估指标，确保技术应用的社会责任感。近期工作通过对抗去偏技术 [6] 有效缓解了此类问题，为本文提出的公平性评估提供了可落地的技术参考，强调在模型优化中纳入社会伦理考量的必要性。

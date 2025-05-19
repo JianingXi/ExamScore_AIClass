@@ -1,3 +1,2 @@
 [4]	"Medical Image Management Global Market Report 2023: Growing Demand for Medical Imaging Equipment Bolsters Sector," NASDAQ OMX's News Release Distribution Channel, 2023.
-[12]	H. Kaiming, Z. Xiangyu, R. Shaoqing, and S. Jian, "Deep Residual Learning for Image Recognition," 2016: IEEE, pp. 770-778, doi: 10.1109/CVPR.2016.90.
 [19]	J. Cohen, Statistical Power Analysis for the Behavioral Sciences, Rev. ed. Academic Press, 2013.

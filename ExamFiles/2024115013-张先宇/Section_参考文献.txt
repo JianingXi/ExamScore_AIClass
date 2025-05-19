@@ -1,0 +1,11 @@
+6.参考文献
+[1-9]
+[1]	ABOLPOUR MOFRAD A, YAZIDI A, HAMMER H L, et al. Equivalence Projective Simulation as a Framework for Modeling Formation of Stimulus Equivalence Classes [J]. 2020.
+[2]	HAN S, MAO H, DALLY W J. Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding [J]. arXiv preprint arXiv:151000149, 2015.
+[3]	JIAO X, YIN Y, SHANG L, et al. Tinybert: Distilling bert for natural language understanding [J]. arXiv preprint arXiv:190910351, 2019.
+[4]	KEFATO Z, GIRDZIJAUSKAS S, SHEIKH N, et al. Dynamic embeddings for interaction prediction; proceedings of the Proceedings of the Web Conference 2021, F, 2021 [C].
+[5]	KLYUCHNIKOV N, TROFIMOV I, ARTEMOVA E, et al. Nas-bench-nlp: neural architecture search benchmark for natural language processing [J]. IEEE Access, 2022, 10: 45736-47.
+[6]	REN P, LI C, WANG G, et al. Beyond fixation: Dynamic window visual transformer; proceedings of the Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, F, 2022 [C].
+[7]	WAHLE J P, RUAS T, KIRSTEIN F, et al. How large language models are transforming machine-paraphrased plagiarism [J]. arXiv preprint arXiv:221003568, 2022.
+[8]	WANG S, LU Z, CAO Q, et al. Exploration and exploitation for buffer-controlled HDD-Writes for SSD-HDD hybrid storage server [J]. ACM Transactions on Storage (TOS), 2022, 18(1): 1-29.
+[9]	YU J, CHEN K, XIA R. Hierarchical interactive multimodal transformer for aspect-based multimodal sentiment analysis [J]. IEEE Transactions on Affective Computing, 2022, 14(3): 1966-78.

@@ -2,7 +2,7 @@
 金旭杨. 基于深度学习的工程图像识别与分类研究. 工程学研究与实用. 2025.
 李 兴海. 配电网络智能化管理与优化策略. 智能城市应用. 2025.
 N/A N/A. 中国光学学会2008年学术大会准备工作正在进行时. Laser &amp; Optoelectronics Progress. 2008.
-孙笑飞, 周晓亮. 人工智能在计算机网络技术中的应用分析1. 电子通信与计算机科学. 2023.
+苑 文丽. Iterative Shrink Threshold Differential Privacy Algorithm Based on Gradient Perturbation and BB Step Size. Advances in Applied Mathematics. 2023.
 任天乐，张江宝，施雨欣，姜奕池 王晨望. 人工智能在医学影像学中的应用及研究进展. 医学研究. 2024.
 海 蔺. 浅析我国医疗器械行业发展现状及发展趋势. 机械与电子控制工程. 2024.
 陈运河. 糖尿病药物治疗的现状及进展研究. 临床医学前沿. 2023.

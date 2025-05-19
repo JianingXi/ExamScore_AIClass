@@ -3,8 +3,8 @@ He Bryan, Bergenstråhle Ludvig, Stenbeck Linnea et al.. Integrating spatial gen
 Quellec Gwenolé, Al Hajj Hassan, Lamard Mathieu et al.. ExplAIn: Explanatory artificial intelligence for diabetic retinopathy diagnosis. Medical Image Analysis. 2021.
 Jumper John, Evans Richard, Pritzel Alexander et al.. Highly accurate protein structure prediction with AlphaFold. Nature. 2021.
 None, Chuy Jeffrey A., Garg Ishan et al.. Imaging features of bile duct adenoma: case series and review of literature. Diagnostic and Interventional Radiology. 2018.
-DiIorio M, Kennedy K, Liew JW et al.. Prolonged COVID-19 symptom duration in people with systemic autoimmune rheumatic diseases: results from the COVID-19 Global Rheumatology Alliance Vaccine Survey.. RMD open. 2022 Sep.
-曹 丁文. 医疗设备电气控制线路的各种隔离与技术措施分析. 水电科技. 2021.
+. . . .
+俞瑞雪. 医学影像技术在医学影像诊断中的临床应用分析. 国际全科医学. 2023.
 . . . .
 Wang Lu, Guo Dong, Wang Guotai et al.. Annotation-Efficient Learning for Medical Image Segmentation Based on Noisy Pseudo Labels and Adversarial Learning. IEEE Transactions on Medical Imaging. 2021.
 Abraham Alexandre, Pedregosa Fabian, Eickenberg Michael et al.. Machine learning for neuroimaging with scikit-learn. Frontiers in Neuroinformatics. 2014.

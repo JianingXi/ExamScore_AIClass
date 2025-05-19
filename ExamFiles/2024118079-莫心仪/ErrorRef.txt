@@ -1,1 +1,0 @@
-[5] Abdal R, Qin Y, Wonka P. ImageGen: High - Fidelity Image Generation Using Diffusion Models with Generative Adversarial Training[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023: 15873 - 15882.

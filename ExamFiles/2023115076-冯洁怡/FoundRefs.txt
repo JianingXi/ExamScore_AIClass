@@ -7,4 +7,4 @@ Duan Mengyao, Mao Boyan, Li Zijian et al.. Feasibility of tongue image detection
 Jiang Ce, Lü Zuoyong, Fang Lihua. 融合处理速度和加速度记录的地震检测模型及其在新丰江水库的应用. Earth Science-Journal of China University of Geosciences. 2024.
 Shao Jun, Ma Jiechao, Yu Yizhou et al.. A multimodal integration pipeline for accurate diagnosis, pathogen identification, and prognosis prediction of pulmonary infections. The Innovation. 2024.
 张丹阳. 基于大数据分析的矿山机械设备运行状态智能诊断系统设计. 机械与电子控制工程. 2024.
-石志杰. 5G在广播电视技术领域中的应用与前景分析. 现代工程项目管理. 2022.
+Omar M, Agbareia R, Glicksberg BS et al.. Benchmarking the Confidence of Large Language Models in Answering Clinical Questions: Cross-Sectional Evaluation Study.. JMIR medical informatics. 2025 May 16.

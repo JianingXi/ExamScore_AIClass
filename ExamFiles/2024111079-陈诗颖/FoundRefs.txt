@@ -6,7 +6,7 @@ Chen Jieneng, Mei Jieru, Li Xianhang et al.. TransUNet: Rethinking the U-Net arc
 Hu Jie, Shen Li, Sun Gang. Squeeze-and-Excitation Networks. 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2018.
 Zhou Zongwei, Siddiquee Md Mahfuzur Rahman, Tajbakhsh Nima et al.. UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation. IEEE Transactions on Medical Imaging. 2020.
 Isensee Fabian, Jaeger Paul F., Kohl Simon A. A. et al.. nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods. 2021.
-Chandrasinghe PC, Cereser B, Bertazzo S et al.. Preserving Fossilized Soft Tissues: Advancing Proteomics and Unveiling the Evolutionary History of Cancer in Dinosaurs.. Biology. 2025 Apr 3.
+Chen Z, Shi H, Hu W et al.. DRP2 promotes EMT and serves as a potential therapeutic target for LUAD treatment.. Scientific reports. 2025 May 13.
 Mokrane Fatima-Zohra, Lu Lin, Vavasseur Adrien et al.. Radiomics machine-learning signature for diagnosis of hepatocellular carcinoma in cirrhotic patients with indeterminate liver nodules. European Radiology. 2020.
 Yimeng Zhang, Tsuhan Chen. Efficient inference for fully-connected CRFs with stationarity. 2012 IEEE Conference on Computer Vision and Pattern Recognition. 2012.
 Xie Saining, Tu Zhuowen. Holistically-Nested Edge Detection. 2015 IEEE International Conference on Computer Vision (ICCV). 2015.

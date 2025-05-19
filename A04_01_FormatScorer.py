@@ -81,7 +81,11 @@ def generate_report(base_dir):
         sub = os.path.join(base_dir, folder)
         if not os.path.isdir(sub):
             continue
-        docs = [f for f in os.listdir(sub) if f.lower().endswith('.docx')]
+        docs = [
+            f for f in os.listdir(sub)
+            if f.lower().endswith('.docx') and not f.lower().endswith('_summary.docx')
+        ]
+        # 额外剔除结尾为_summary.docx的文件
         if not docs:
             summary.append(f"{folder}\t0/10\t未检测到.docx 文件。")
             missing.append(folder)

@@ -5,4 +5,4 @@ Hsu Enshuo, Roberts Kirk. LLM-IE: a python package for biomedical generative inf
 值铭 张. 人工智能在物联网中的关键技术及应用研究. 教育科学文献. 2025.
 Pan Peng, Zhang Chengxue, Sun Jingbo et al.. Multi-scale conv-attention U-Net for medical image segmentation. Scientific Reports. 2025.
 Wu Meijie, Huang Xuefeng, Jiang Baona et al.. AI in medical education: the moderating role of the chilling effect and STARA awareness. BMC Medical Education. 2024.
-Jesus A, Ratanji S, Cidade H et al.. Phenolics as Active Ingredients in Skincare Products: A Myth or Reality?. Molecules (Basel, Switzerland). 2025 Mar 23.
+Tomiwa T, Wong E, Miller HN et al.. Corrigendum: Leveraging digital tools to enhance diversity and inclusion in clinical trial recruitment.. Frontiers in public health. 2025.

@@ -4,15 +4,14 @@ Watanabe K, Wilmanski T, Diener C et al.. Multiomic signatures of body mass inde
 陈 郁芬. 我国公共危机教育的研究现状与反思——基于CNKI数据库文献的可视化分析. 教育研究. 2020.
 WANG SHAO-QING, LIU QUAN-PU, YE HENG-QIANG et al.. AN INCIPIENT EDGE DISLOCATION IN EPITAXIAL WURTZITE GaN. Acta Physica Sinica. 1998.
 Matero M, Giorgi S, Curtis B et al.. Author Correction: Opioid death projections with AI-based forecasts using social media language.. NPJ digital medicine. 2023 Mar 17.
-Ju LY, Liu GQ, Yuan L et al.. Effect of Esketamine on Postoperative Delirium and Inflammatory Response in Patients Undergoing Off-Pump Coronary Artery Bypass Grafting: A Randomized Controlled Study.. Journal of cardiothoracic and vascular anesthesia. 2025 Apr 10.
+Yang Y, Song L, Cao J et al.. Peripheral monocyte count is associated with the risk of liver metastasis: A study of 7187 newly diagnosed patients with colorectal cancer.. Indian journal of cancer. 2025 Jan 1.
 董馥伊 何建雄. 中华文化符号在国际化背景下的传承与创新. 社会企业经济发展. 2024.
 王 仲睿, 孙 浩昊, 雷 荔傈 et al.. 数据同化组成部分对初始条件和误差增长的影响. SCIENTIA SINICA Terrae. 2024.
 van Praagh GD, van der Werf NR, Wang J et al.. Fully automated quantification method (FQM) of coronary calcium in an anthropomorphic phantom.. Medical physics. 2021 Jul.
-孟 兰霞, 张 国振. 基于物联网通信技术的智能燃气表技术展望. 智能城市应用. 2023.
-D J Goodenough, K Doi. Optical spatial filtering of radiographic images. Physics in Medicine &amp; Biology. 1974.
-王娅娇. 企业实施职业健康标准化管理探讨. 工程管理与技术探讨. 2024.
-Doi Suhail A.R.. Bias assessment: mQ or RoB?. JBI Evidence Synthesis. 2023.
-丛 双. 核心素养理念下小学语文阅读教学方法论述. 教学方法创新与实践. 2020.
+Lv Jun, Li Guangyuan, Tong Xiangrong et al.. Transfer learning enhanced generative adversarial networks for multi-channel MRI reconstruction. Computers in Biology and Medicine. 2021.
+Peng Yang. Query-Driven Knowledge Graph Construction using Question Answering and Multimodal Fusion. Companion Proceedings of the ACM Web Conference 2023. 2023.
+Li Jun, Chen Tao, Qian Xiaohua. Generalizable Pancreas Segmentation Modeling in CT Imaging via Meta-Learning and Latent-Space Feature Flow Generation. IEEE Journal of Biomedical and Health Informatics. 2023.
+侯印春 侯印春. 生产制备真空镀膜材料的方法与关键. Laser &amp; Optoelectronics Progress. 2009.
 马 淑琴. Ethical Reflection on Dealing with Crisis in College Psychological Consultation. Advances in Education. 2016.
 Kiyozumi D, Shimada K, Chalick M et al.. A small secreted protein NICOL regulates lumicrine-mediated sperm maturation and male fertility.. Nature communications. 2023 Apr 24.
 勇 李. 人工智能在医学影像中的研究与应用. 国际全科医学. 2023.

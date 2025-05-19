@@ -1,7 +1,6 @@
 Al-Shaher Mohamed Adel, Al-Khafaji Nassir Jabir. E-healthcare system to monitor vital signs. 2017 9th International Conference on Electronics, Computers and Artificial Intelligence (ECAI). 2017.
 Zhang Yifan, Chen Zhuangzhuang, Yang Xuan. Light-M: An efficient lightweight medical image segmentation framework for resource-constrained IoMT. Computers in Biology and Medicine. 2024.
-Litjens Geert, Kooi Thijs, Bejnordi Babak Ehteshami et al.. A survey on deep learning in medical image analysis. Medical Image Analysis. 2017.
 Mahase Elisabeth. AI system outperforms radiologists in first reading of breast cancer screening, study claims. BMJ. 2020.
-Yang Feng 杨锋, Wei Guohui 魏国辉, Cao Hui 曹慧 et al.. Research Progress on Content-Based Medical Image Retrieval. Laser &amp; Optoelectronics Progress. 2020.
+. . . .
 Twinprai Nattaphon, Boonrod Artit, Boonrod Arunnit et al.. Artificial Intelligence (AI) Vs. Human in Hip Fracture Detection. SSRN Electronic Journal. None.
 王圆圆, 轩翠华, 张晓利. 医学影像技术和医学影像诊断的关系探讨. 国际全科医学. 2023.

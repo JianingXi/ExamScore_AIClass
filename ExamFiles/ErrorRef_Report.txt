@@ -1,27 +1,6 @@
-【2022116015-莫嘉慧】
-不严谨引用，包括论文不存在、作者和题目对不上、论文期刊/会议和题目对不上、引文中英混用等，具体如下：
-[4]	"Medical Image Management Global Market Report 2023: Growing Demand for Medical Imaging Equipment Bolsters Sector," NASDAQ OMX's News Release Distribution Channel, 2023.
-[12]	H. Kaiming, Z. Xiangyu, R. Shaoqing, and S. Jian, "Deep Residual Learning for Image Recognition," 2016: IEEE, pp. 770-778, doi: 10.1109/CVPR.2016.90.
-[19]	J. Cohen, Statistical Power Analysis for the Behavioral Sciences, Rev. ed. Academic Press, 2013.
-
-【2024111109-吴海鹏】
-不严谨引用，包括论文不存在、作者和题目对不上、论文期刊/会议和题目对不上、引文中英混用等，具体如下：
-[2] Google Health. Multi-modal Transformer for Cancer Diagnosis. Nature Medicine, 2021, 27(5): 858-865.
-[6] Li X, et al. Meta-Learning for Medical Image Analysis with Limited Data. Nat Mach Intell, 2022, 4(3): 235-244.
-[7] Chen Z, et al. Explainable AI in Medical Imaging: A Review. Pattern Recognit, 2023, 139: 109415.
-
 【2024114052-李欣欣】
 不严谨引用，包括论文不存在、作者和题目对不上、论文期刊/会议和题目对不上、引文中英混用等，具体如下：
 DOI:10.1001/jamapediatrics.2022.0153
 DOI:10.1109/TMI.2022.3218765
 DOI:10.1200/JCO.2022.40.16_suppl.10520
 通告编号：NMPA 2023年第8号
-DOI:10.1109/JBHI.2022.3225678
-DOI:10.1542/peds.2020-035754
-
-【2024151054-朱彦瑾】
-不严谨引用，包括论文不存在、作者和题目对不上、论文期刊/会议和题目对不上、引文中英混用等，具体如下：
-[4]Ding Meirong, Chen Hongye, Zeng Biqing. Multimodal sentiment analysis with cross-modal semantic alignment and information refinement [J]. Computer Engineering and Applications, 2024, 60(22):114-125.
-Liu Fan, Wang Fengmei. Reflections on the construction of a multimodal content security review system [J]. China Media Technology, 2023, (04): 149-153. DOI:10.19483/j.cnki.11-4653/n.2023.04.031
-[10] Jiang Chao, Zhu Xuefang. Research on multimodal rumor detection based on GPT-4 data augmentation and contrastive learning[J]. Library and Information Service, 2024, 68(23):76-87. DOI:10.13266/j.issn.0252-3116.2024.23.007.
-(郭伟杰.多领域跨媒体科技大数据高效检索查询研究[D].北京邮电大学,2021.DOI:10.26969/d.cnki.gbydu.2021.001345.)

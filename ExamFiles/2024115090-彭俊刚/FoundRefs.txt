@@ -10,5 +10,5 @@ Paper David. TensorFlow Datasets. State-of-the-Art Deep Learning Models in Tenso
 You Mao, None, Xiao Yue et al.. Evaluation and Regulation of Medical Artificial Intelligence Applications in China. Chinese Medical Sciences Journal. 2025.
 刘　金, 赵　静. “互联网+”管理平台在糖尿病健康管理中应用的研究进展. 国际护理与健康. 2023.
 周 云, 于 维明. 关于医疗安全角度的医疗设备计量管理. 工程技术与管理. 2020.
-Mishra Pradeepta. Supervised Learning Using PyTorch. PyTorch Recipes. 2023.
+Mishra Pradeepta. Probability Distributions Using PyTorch. PyTorch Recipes. 2019.
 Muppa Naveen. Power BI User Guide for Developers. International Journal of Science and Research (IJSR). 2022.

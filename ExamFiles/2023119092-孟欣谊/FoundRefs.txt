@@ -6,8 +6,8 @@ Shazeer Noam, Fatahalian Kayvon, Mark William R. et al.. HydraNets: Specialized 
 McClement Daniel G., Lawrence Nathan P., Loewen Philip D. et al.. A Meta-Reinforcement Learning Approach to Process Control. IFAC-PapersOnLine. 2021.
 张愈苒. 汽车智能网联关键技术研究. 工程管理与技术探讨. 2024.
 Khan Samiullah, Niaz Ashfaq, Yinke Dou et al.. Deep reinforcement learning and robust SLAM based robotic control algorithm for self-driving path optimization. Frontiers in Neurorobotics. 2025.
-Liu M, Li Z, Zhou Y et al.. Design, synthesis and evaluation of antibacterial activity and mechanism of novel 1-H-indole-3-pyrazolamide derivatives.. Pest management science. 2025 May 4.
-赵庆伟. PLC技术在电气仪表自动化控制中的应用. 工程学研究与实用. 2022.
+Trapé CA, Sivalli Campos CM, de Freitas Oliveira C et al.. Scoping review of evidence synthesis: Concepts, types and methods.. PloS one. 2025.
+琳 谭. 人工智能技术在电气自动化控制中的应用思路研究. 工程学研究与实用. 2022.
 张 慧. 大数据背景下的地理信息数据网络安全探讨. 地矿测绘. 2020.
 Caesar Holger, Bankiti Varun, Lang Alex H. et al.. nuScenes: A Multimodal Dataset for Autonomous Driving. 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2020.
 Zhang Shuwei, Wu Yutian, Ogai Harutoshi et al.. Tactical Decision-Making for Autonomous Driving Using Dueling Double Deep Q Network With Double Attention. IEEE Access. 2021.

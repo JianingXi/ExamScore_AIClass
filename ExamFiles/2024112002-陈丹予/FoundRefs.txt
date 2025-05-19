@@ -1,7 +1,7 @@
 Liu Bingzhan, Wang Liangliang. Research and application of smart home-based care system based on Internet of Things technology. 3rd International Conference on Internet of Things and Smart City (IoTSC 2023）. 2023.
 Madaan Aman, Zhou Shuyan, Alon Uri et al.. Language Models of Code are Few-Shot Commonsense Learners. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing. 2022.
 Aakanksha Chowdhery, Sharan Narang, Jacob Devlin et al.. PaLM: Scaling Language Modeling with Pathways. arXiv. 2022.
-Condylios Steve. gitGPT: Automated Git Commit Messages using the 'OpenAI' 'GPT' Model. CRAN: Contributed Packages. 2023.
+OpenAi GPT 3.5. Spor ve Teknoloji: Etkileşim ve Dönüşümün Yolculuğu. Dijital Çağda Spor Araştırmaları I. 2023.
 Kai Wang, Xin Wang, Yangyao Chen. Environmental dependence of the mass-metallicity relation in   cosmological hydrodynamical simulations. arXiv. 2023.
 Cui Yiming, Che Wanxiang, Liu Ting et al.. Pre-Training With Whole Word Masking for Chinese BERT. IEEE/ACM Transactions on Audio, Speech, and Language Processing. 2021.
 K. V. Samokhin. On the pseudospin description of the electron Bloch bands. arXiv. 2019.

@@ -8,7 +8,6 @@ Santomartino Samantha M., Hafezi-Nejad Nima, Parekh Vishwa S. et al.. Performanc
 Mundt Martin, Hong Yongwon, Pliushch Iuliia et al.. A wholistic view of continual learning with deep neural networks: Forgotten lessons and the bridge to active and open world learning. Neural Networks. 2023.
 勇 李. 人工智能在医学影像中的研究与应用. 国际全科医学. 2023.
 英 秦, 瑞 刘. 皮肤白斑的中医治疗. 国际护理与健康. 2023.
-LIU BO, SHI CHAO-SHU, ZHOU DONG-FANG et al.. INFLUENCE OF Gd3+ AND Y3+-DOPING ON LOW TEMPERATURE  THERMOLUMINESCENCE OF Pb WO_4. Acta Physica Sinica. 2001.
+ZHANG HAI-FENG, HUANG XIN-TANG, LI YONG-PING et al.. THE ELECTRONIC STRUCTURE OF MoSi2(001)SURFACE. Acta Physica Sinica. 1994.
 . . . .
 Heaton Jeff. Ian Goodfellow, Yoshua Bengio, and Aaron Courville: Deep learning. Genetic Programming and Evolvable Machines. 2018.
-. . . .
