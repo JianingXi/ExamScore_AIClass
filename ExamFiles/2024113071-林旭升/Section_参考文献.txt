@@ -1,7 +1,0 @@
-参 考 文 献
-[1]Jiang Y, Manem VSK. Data augmented lung cancer prediction framework using the nested case control NLST cohort. Front Oncol. 2025 Feb 25;15:1492758. doi: 10.3389/fonc.2025.1492758. PMID: 40071099; PMCID: PMC11893409.
-[2]Fasi M, Higham NJ, Mikaitis M, Pranesh S. Numerical behavior of NVIDIA tensor cores. PeerJ Comput Sci. 2021 Feb 10;7:e330. doi: 10.7717/peerj-cs.330. PMID: 33816984; PMCID: PMC7959640.
-[3]Jiang Y, Manem VSK. Data augmented lung cancer prediction framework using the nested case control NLST cohort. Front Oncol. 2025 Feb 25;15:1492758. doi: 10.3389/fonc.2025.1492758. PMID: 40071099; PMCID: PMC11893409.
-[4] Xu J, Ren H, Cai S, Zhang X. An improved faster R-CNN algorithm for assisted detection of lung nodules. Comput Biol Med. 2023 Feb;153:106470. doi: 10.1016/j.compbiomed.2022.106470. Epub 2022 Dec 28. PMID: 36587571.
-[5] Wahab MF, O'Haver TC. Wavelet transforms in separation science for denoising and peak overlap detection. J Sep Sci. 2020 May;43(9-10):1998-2010. doi: 10.1002/jssc.202000013. Epub 2020 Mar 19. PMID: 32108426.
-[6] Klein S, Staring M, Murphy K, Viergever MA, Pluim JP. elastix: a toolbox for intensity-based medical image registration. IEEE Trans Med Imaging. 2010 Jan;29(1):196-205. doi: 10.1109/TMI.2009.2035616. Epub 2009 Nov 17. PMID: 19923044.

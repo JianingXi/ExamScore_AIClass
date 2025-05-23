@@ -1,9 +1,0 @@
-Lu Runzhou 陆润洲, Jiang Hong 姜红, Man Ji 满吉 et al.. X射线荧光光谱结合差分拉曼光谱对烟盒的分类研究. Laser &amp; Optoelectronics Progress. 2022.
-李 明泓, 马 原野, 黄 志华 et al.. 基于分类的单实验事件相关电位估计方法. SCIENTIA SINICA Vitae. 2012.
-Li Bing, Qi Ying, Wang Ying et al.. Attar: RRAM-based in-memory attention accelerator with software-hardware co-optimization. Science China Information Sciences. 2025.
-Liu Xinglong, Hou Fei, Qin Hong et al.. A CADe system for nodule detection in thoracic CT images based on artificial neural network. Science China Information Sciences. 2017.
-赵培培. 医学影像技术在医学影像诊断中的临床应用. 国际全科医学. 2022.
-健 杨. 计算机人工智能图像处理技术应用分析. 电子通信与计算机科学. 2023.
-Zhou Binxuan, Chang Jingcai, Li Jun et al.. Study of the reaction mechanism for preparing powdered activated coke with SO2 adsorption capability via one-step rapid activation method under flue gas atmosphere. Chinese Journal of Chemical Engineering. 2024.
-崔 佳轩. 基于机器学习和深度学习的蛋白质结构预测研究进展. 人工智能前沿与应用. 2024.
-姚丽萍 姚丽萍, 王良娟 王良娟, 姚陈闽 姚陈闽 et al.. sFlt-1 与PlGF 比值联合维生素E 水平检测在子痫前期早期诊断中的临床意义. Academic Frontiers Publishing Group. 2025.

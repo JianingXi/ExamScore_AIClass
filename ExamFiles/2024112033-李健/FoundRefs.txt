@@ -1,9 +1,0 @@
-Ronneberger Olaf, Fischer Philipp, Brox Thomas. U-Net: Convolutional Networks for Biomedical Image Segmentation. Lecture Notes in Computer Science. 2015.
-Litjens Geert, Kooi Thijs, Bejnordi Babak Ehteshami et al.. A survey on deep learning in medical image analysis. Medical Image Analysis. 2017.
-Zhang Hao, Wang Qi, Shi Jun et al.. Deep unfolding network with spatial alignment for multi-modal MRI reconstruction. Medical Image Analysis. 2025.
-Zhou Bolei, Khosla Aditya, Lapedriza Agata et al.. Learning Deep Features for Discriminative Localization. 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2016.
-Li Lingwei, Liu Tongtong, Wang Peng et al.. Multiple perception contrastive learning for automated ovarian tumor classification in CT images. Abdominal Radiology. 2025.
-Pi Yong, Zhao Zhen, Xiang Yongzhao et al.. Automated diagnosis of bone metastasis based on multi-view bone scans using attention-augmented deep neural networks. Medical Image Analysis. 2020.
-Cheng Junlong, Tian Shengwei, Yu Long et al.. Fully convolutional attention network for biomedical image segmentation. Artificial Intelligence in Medicine. 2020.
-Wang Xiaosong, Peng Yifan, Lu Le et al.. ChestX-Ray8: Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2017.
-Ahmed Md. Rayhan, Fahim Md. Asif Iqbal, Islam A.K.M. Muzahidul et al.. DOLG-NeXt: Convolutional neural network with deep orthogonal fusion of local and global features for biomedical image segmentation. Neurocomputing. 2023.

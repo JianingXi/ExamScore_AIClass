@@ -1,7 +1,0 @@
-摘  要	多模态大模型通过融合文本、图像、语音等跨媒体数据，突破了单一模态分析的语义鸿沟，成为人工智能领域的研究热点。本文聚焦其在跨媒体检索、内容生成、情感分析等场景的技术演进，系统分析现有模型在特征对齐、计算效率、泛化能力等方面的瓶颈。通过构建包含500条图像-文本对的自主数据集，基于CLIP模型进行对比实验，结果表明改进后的多模态融合方法在跨媒体检索准确率上较传统方法提升23%（p<0.01）。研究成果为智能推荐、虚拟现实等场景提供了理论支撑与技术路径。
-关键词	多模态大模型；跨媒体分析；特征对齐；CLIP模型；人工智能
-Cross-media Analysis Based on Multimodal Large Models
-Zhu Yanjin
-Guangzhou Medical University  School Of Health Management  Guangzhou  China   51000
-Abstract	Multimodal large models (MLLMs) have become a research hotspot in artificial intelligence by fusing cross-media data such as text, images, and speech to break through the semantic gap of single-modal analysis. This paper focuses on the technological evolution of MLLMs in scenarios such as cross-media retrieval, content generation, and emotion analysis, systematically analyzing the bottlenecks of existing models in feature alignment, computational efficiency, and generalization ability. By constructing an autonomous dataset containing 500 image-text pairs and conducting comparative experiments based on the CLIP model, the results show that the improved multimodal fusion method increases the accuracy of cross-media retrieval by 23% compared with traditional methods (p<0.01). The research provides theoretical support and technical pathways for scenarios such as intelligent recommendation and virtual reality.
-Key words	multimodal large models; cross-media analysis; feature alignment; CLIP model; artificial intelligence

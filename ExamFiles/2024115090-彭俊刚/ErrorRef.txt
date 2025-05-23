@@ -1,1 +1,0 @@
-[4] Weng S.F., et al. (2023). Diabetes Complications Prediction Using XGBoost. IEEE Journal of Biomedical and Health Informatics, 27(1), 1-10.

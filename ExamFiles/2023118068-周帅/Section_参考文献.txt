@@ -1,7 +1,0 @@
-参考文献
-1.	Brown, T.B., et al., Language Models are Few-Shot Learners. ArXiv, 2020. abs/2005.14165.
-2.	Chowdhery, A., et al., PaLM: Scaling Language Modeling with Pathways. ArXiv, 2022. abs/2204.02311.
-3.	Hoffmann, J., et al., Training Compute-Optimal Large Language Models. ArXiv, 2022. abs/2203.15556.
-4.	Vaswani, A., et al. Attention is All you Need. in Neural Information Processing Systems. 2017.
-5.	Raffel, C., et al., Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. J. Mach. Learn. Res., 2019. 21: p. 140:1-140:67.
-6.	Devlin, J., et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. in North American Chapter of the Association for Computational Linguistics. 2019.

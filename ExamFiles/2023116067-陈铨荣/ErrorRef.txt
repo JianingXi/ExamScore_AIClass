@@ -1,2 +1,0 @@
-2.	Li, S., et al., Progress in biomedical data analysis based on deep learning. Sheng wu yi xue gong cheng xue za zhi = Journal of biomedical engineering = Shengwu yixue gongchengxue zazhi, 2020. 37(2): p. 349-357.
-4.	Wang, X.-Y., H.-Z. Qu, and X.-D. Fang, Omics big data and medical artificial intelligence. Yi chuan = Hereditas, 2021. 43(10): p. 930-937.

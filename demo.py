@@ -13,7 +13,7 @@ from A04_06_ContentTF_IDF import a04_06_content_tf_idf
 from A04_07_ContentEmbOutlier import a04_07_content_emb_outlier
 
 
-root_dir = r"C:\MyPython\ExamScore_AIClass\ExamFiles"
+root_dir = r"C:\Users\xijia\Desktop\ToDoList\医学人工智能_期末论文"
 """
 a01_01_unzip_files(root_dir)
 

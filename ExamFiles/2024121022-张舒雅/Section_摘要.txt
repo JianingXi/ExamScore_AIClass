@@ -1,7 +1,0 @@
-摘  要	近年来，深度学习技术在医学影像分析领域取得了显著进展。本文系统综述了2020-2023年间国际与国内在医学影像分析中的突破性技术，重点探讨了卷积神经网络（CNN）、Transformer架构及其混合模型的优化方法。实验表明，基于自注意力机制的改进模型在肺结节检测任务中比传统CNN模型准确率提高12.5%，推理速度提升18%。此外，本文结合国家政策与产业布局，分析了医学影像AI技术的落地挑战与伦理风险。
-关键词	深度学习；医学影像分析；卷积神经网络；Transformer；人工智能伦理
-Title Frontiers in Medical Image Analysis Based on Deep Learning
-Zhang shuya
-1Guangzhou Medical University,Department of Psychiatric, Guangzhou city, China 511436
-Abstract	Deep learning has revolutionized medical image analysis in recent years. This paper comprehensively reviews cutting-edge technologies from 2020 to 2023, focusing on optimized convolutional neural networks , Transformer architectures, and hybrid models. Experimental results demonstrate that an improved self-attention model achieves 12.5% higher accuracy and 18% faster inference speed compared to traditional  in lung nodule detection tasks. Furthermore, this study discusses the challenges of deploying AI-driven medical imaging technologies, supported by national policies and industry trends, while addressing ethical concerns
-Key words	Deep learning; Medical image analysis; Convolutional neural network; Transformer; AI ethics

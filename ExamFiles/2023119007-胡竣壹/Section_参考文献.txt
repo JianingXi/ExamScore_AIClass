@@ -1,9 +1,0 @@
-参考文献：
-【1】Jiang F et al. (2017). Artificial intelligence in healthcare
-【2】 Zhang Y,Chen Z,Yang X. An Efficient lightweight medical image Segmentation framework for resource-constrained loMT
-【3】Litjens G, Kooi T, Bejnordi BE, Setio AAA, Ciompi F, Ghafoorian M, van der Laak JAWM, van Ginneken B, Sánchez CI. A survey on deep learning in medical image analysis.
-【4】 Shiferaw KB, Roloff M, Waltemath D, Zeleke AA. Guidelines and Standard Frameworks for AI in Medicine: Protocol for a Systematic Literature Review.
-【5】 McKinney SM等 (2020).International evaluation of an AI system for breast cancer screening
-【6】杨锋等 (2020). 基于内容的医学图像检索研究进展
-【7】Twinprai N, Boonrod A, Boonrod A, Chindaprasirt J, Sirithanaphol W, Chindaprasirt P, Twinprai P. Artificial intelligence (AI) vs. human in hip fracture detection.
-【8】华中科技大学.硕士论文.智能医学影像辅助诊断系统评价指标体系研究

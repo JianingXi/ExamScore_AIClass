@@ -1,2 +1,0 @@
-【3】Litjens G, Kooi T, Bejnordi BE, Setio AAA, Ciompi F, Ghafoorian M, van der Laak JAWM, van Ginneken B, Sánchez CI. A survey on deep learning in medical image analysis.
-【4】 Shiferaw KB, Roloff M, Waltemath D, Zeleke AA. Guidelines and Standard Frameworks for AI in Medicine: Protocol for a Systematic Literature Review.

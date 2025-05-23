@@ -1,9 +1,0 @@
-. . . .
-Mofrad Asieh Abolpour, Yazidi Anis, Hammer Hugo L. et al.. Equivalence Projective Simulation as a Framework for Modeling Formation of Stimulus Equivalence Classes. Neural Computation. 2020.
-Song Han, Xingyu Liu, Huizi Mao et al.. Deep compression and EIE: Efficient inference engine on compressed deep neural network. 2016 IEEE Hot Chips 28 Symposium (HCS). 2016.
-Jiao Xiaoqi, Yin Yichun, Shang Lifeng et al.. TinyBERT: Distilling BERT for Natural Language Understanding. Findings of the Association for Computational Linguistics: EMNLP 2020. 2020.
-Kefato Zekarias, Girdzijauskas Sarunas, Sheikh Nasrullah et al.. Dynamic Embeddings for Interaction Prediction. Proceedings of the Web Conference 2021. 2021.
-Klyuchnikov Nikita, Trofimov Ilya, Artemova Ekaterina et al.. NAS-Bench-NLP: Neural Architecture Search Benchmark for Natural Language Processing. IEEE Access. 2022.
-Ren Pengzhen, Li Changlin, Wang Guangrun et al.. Beyond Fixation: Dynamic Window Visual Transformer. 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2022.
-Wang Shucheng, Lu Ziyi, Cao Qiang et al.. Exploration and Exploitation for Buffer-Controlled HDD-Writes for SSD-HDD Hybrid Storage Server. ACM Transactions on Storage. 2022.
-Yu Jianfei, Chen Kai, Xia Rui. Hierarchical Interactive Multimodal Transformer for Aspect-Based Multimodal Sentiment Analysis. IEEE Transactions on Affective Computing. 2023.

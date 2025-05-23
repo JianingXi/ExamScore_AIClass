@@ -1,7 +1,0 @@
-Madaan Aman, Zhou Shuyan, Alon Uri et al.. Language Models of Code are Few-Shot Commonsense Learners. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing. 2022.
-Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov et al.. An Image is Worth 16x16 Words: Transformers for Image Recognition at   Scale. arXiv. 2020.
-Jumper John, Evans Richard, Pritzel Alexander et al.. Highly accurate protein structure prediction with AlphaFold. Nature. 2021.
-谭向伟. 基于人工智能技术的快递网路规划研究. 工程技术创新与发展. 2023.
-Jacob Devlin, Ming-Wei Chang, Kenton Lee et al.. BERT: Pre-training of Deep Bidirectional Transformers for Language   Understanding. arXiv. 2018.
-Joseph Redmon, Ali Farhadi. YOLOv3: An Incremental Improvement. arXiv. 2018.
-Ren Shaoqing, He Kaiming, Girshick Ross et al.. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks. IEEE Transactions on Pattern Analysis and Machine Intelligence. 2017.

@@ -1,4 +1,0 @@
-基于多模态医学影像的AI辅助诊断系统优化与伦理挑战
-Optimization and Ethical Challenges of AI-Assisted Diagnostic Systems Based on Multimodal Medical Imaging
-凌志
-广州医科大学，广州市

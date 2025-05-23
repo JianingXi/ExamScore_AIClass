@@ -1,8 +1,0 @@
-参考文献
-Gulshan, Peng (6)
-1.	Esteva A, Kuprel B, Novoa RA, Ko J, Swetter SM, Blau HM, et al. Corrigendum: Dermatologist-level classification of skin cancer with deep neural networks. Nature. 2017;546(7660):686.
-2.	Syed AB, Zoga AC. Artificial Intelligence in Radiology: Current Technology and Future Directions. Semin Musculoskelet Radiol. 2018;22(5):540-5.
-3.	Ardila D, Kiraly AP, Bharadwaj S, Choi B, Reicher JJ, Peng L, et al. Author Correction: End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography. Nat Med. 2019;25(8):1319.
-4.	Topol EJ. High-performance medicine: the convergence of human and artificial intelligence. Nat Med. 2019;25(1):44-56.
-5.	McKinney SM, Sieniek M, Godbole V, Godwin J, Antropova N, Ashrafian H, et al. Addendum: International evaluation of an AI system for breast cancer screening. Nature. 2020;586(7829):E19.
-6.	Gulshan V, Peng L, Coram M, Stumpe MC, Wu D, Narayanaswamy A, et al. Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs. JAMA. 2016;316(22):2402-10.

@@ -1,5 +1,0 @@
-6. 参考文献
-1.Ho J, et al. Denoising diffusion probabilistic models. NeurIPS 2020. 【SCI期刊】*
-2.Rombach R, et al. High-resolution image synthesis with latent diffusion models. CVPR 2022.
-3.中国信通院. 生成式人工智能发展白皮书. 2023.
-4.OpenAI. DALL-E 3 technical report. 2023.

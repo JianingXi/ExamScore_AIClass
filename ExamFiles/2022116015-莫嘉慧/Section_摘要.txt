@@ -1,9 +1,0 @@
-摘  要
-在医学影像分析领域，多模态数据融合的精度与效率直接影响临床诊断效果。本研究提出创新性的动态多尺度Transformer（DMT）模型，通过引入可学习的模态特异性特征选择机制，解决了传统方法在跨模态影像对齐中的关键瓶颈。在自建胰腺CT-MRI配对数据集（n=58）和公开数据集（n=420）上的系统性实验表明：① 动态门控模块使分割Dice系数从基线模型U-Net的0.72提升至0.83（相对提升15.3%，p<0.05[1]）；② 提出的多分辨率监督策略显著改善小目标分割性能，对直径<5mm的病灶检测F1-score达到0.78±0.03[2]；③ 结合8-bit量化蒸馏技术，模型参数量减少至28.7M（降幅18.7%）[3]，推理速度提升至167ms/例。本研究的创新点在于：首次将动态模态权重分配与多尺度Transformer架构结合，在保持模型轻量化的同时实现跨设备影像的精准分析，为智慧医疗系统提供了可靠的技术支撑。
-关键词：医学影像分割；多模态融合；动态注意力机制；Transformer架构；量化蒸馏
-Key words: Medical image segmentation; Multi-modality fusion; Dynamic attention mechanism; Transformer architecture; Quantization distillation
-Dynamic Multi-scale Transformer for Cross-modality Medical Image Segmentation
-Mojiahui
-1Department of Guangzhou Medical University, City Guangzhou, China
-Abstract	AbstTo address the inefficiency of feature fusion in multi-modality medical image segmentation, this study proposes a Dynamic Multi-scale Transformer (DMT) model. Experimental results on a self-collected pancreatic CT-MRI paired dataset (n=58) and public datasets (n=420) demonstrate: ① The dynamic gating mechanism improves the Dice coefficient from 0.72 (baseline U-Net) to 0.83 (15.3% relative improvement, p<0.05); ② The multi-resolution supervision strategy increases the F1-score for small target segmentation to 0.78±0.03; ③ Quantization distillation reduces model parameters by 18.7% and optimizes inference speed to 167ms/case. This research provides a high-precision and low-latency solution for cross-modality medical image analysis.
-Key words	Medical image segmentation; Multi-modality fusion; Dynamic attention mechanism; Transformer architecture; Quantization distillation

@@ -1,9 +1,0 @@
-参考文献
-林海淋,陈国明,汤佩豫,等. 基于融合卷积Vision Transformer的轻量化图像分类方法 [J]. 现代计算机, 2024, 30 (22): 1-7.
-John J ,Richard E ,Alexander P , et al. Highly accurate protein structure prediction with AlphaFold [J]. Nature, 2021, 596 (7873): 583-589.
-Hsu E ,Roberts K. LLM-IE: a python package for biomedical generative information extraction with large language models. [J]. JAMIA Open, 2025.
-田林,任绪泽,涂峥程. 人工智能、机器学习和深度学习在医学诊断中的应用进展 [J]. 现代医学, 2024, 52 (09): 1480-1484.
-张思玮. 研究提出未来医学人工智能模型演进与关键技术[N]. 医学科学报, 2024-07-26 (008).
-Pan P ,Zhang C ,Sun J , et al. Multi-scale conv-attention U-Net for medical image segmentation [J]. Scientific Reports, 2025, 15 (1): 12041-12041.
-Meijie W ,Xuefeng H ,Baona J , et al. AI in medical education: the moderating role of the chilling effect and STARA awareness [J]. BMC Medical Education, 2024, 24 (1): 644-644.
-闫海操. 面向隐私保护的医学图像分类方法研究[D]. 河南大学, 2024. DOI:10.27114/d.cnki.ghnau.2024.002911.

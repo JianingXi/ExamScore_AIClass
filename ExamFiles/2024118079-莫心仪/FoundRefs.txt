@@ -1,7 +1,0 @@
-Goodfellow Ian, Pouget-Abadie Jean, Mirza Mehdi et al.. Generative adversarial networks. Communications of the ACM. 2020.
-Karras Tero, Laine Samuli, Aila Timo. A Style-Based Generator Architecture for Generative Adversarial Networks. 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2019.
-Falissard Bruno. The future of evaluation of child and adolescent psychiatric treatments. IACAPAP ArXiv. 2021.
-Aditya Ramesh, Mikhail Pavlov, Gabriel Goh et al.. Zero-Shot Text-to-Image Generation. arXiv. 2021.
-Zhu Peihao, Abdal Rameen, Qin Yipeng et al.. SEAN: Image Synthesis With Semantic Region-Adaptive Normalization. 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2020.
-Zhou Wang, Bovik A.C., Sheikh H.R. et al.. Image quality assessment: from error visibility to structural similarity. IEEE Transactions on Image Processing. 2004.
-Yang Dong, Xiong Tao, Xu Daguang et al.. Segmentation using adversarial image-to-image networks. Handbook of Medical Image Computing and Computer Assisted Intervention. 2020.
