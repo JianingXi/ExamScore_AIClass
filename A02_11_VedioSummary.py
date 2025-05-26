@@ -69,7 +69,7 @@ def process_videos(base_folder: str):
             cap.release()
 
             # 保存文档
-            docx_path = folder / f"{video_path.stem}_summary.docx"
+            docx_path = folder / f"{video_path.stem}_mp4.docx"
             doc.save(str(docx_path))
             print(f"生成文档：{docx_path}")
 

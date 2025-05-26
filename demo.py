@@ -13,32 +13,36 @@ from A04_06_ContentTF_IDF import a04_06_content_tf_idf
 from A04_07_ContentEmbOutlier import a04_07_content_emb_outlier
 
 
-root_dir = r"C:\Users\xijia\Desktop\ToDoList\医学人工智能_期末论文"
+root_dir = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20_医学人工智能\结课论文"
 """
 a01_01_unzip_files(root_dir)
+"""
 
+"""
 a02_01_docx2txt(root_dir)
-
 a02_11_video_summary(root_dir)
-
-
 a03_01_voice_scorer(root_dir)
 a03_02_ppt_scorer(root_dir)
-
-
 a03_03_mp4_scorer(root_dir)
 """
+
+
 
 a04_01_format_scorer(root_dir)
 a04_02_report_main(root_dir)
 
-
+"""
 a04_03_ref_check(root_dir)
+
 
 
 a04_04_refine_ref_error(root_dir)
 a04_05_report_ref_error(root_dir)
 
+"""
+
+"""
 a04_06_content_tf_idf(root_dir)
 a04_07_content_emb_outlier(root_dir)
 
+"""

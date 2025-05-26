@@ -1,11 +1,11 @@
 import os
 import pickle
 import numpy as np
+import pandas as pd
 from sklearn.ensemble import IsolationForest
 from scipy.sparse import hstack
 
 SECTION_KEYS = ['题目', '摘要', '引言', '结论']
-
 
 def load_embeddings(base_dir):
     embeddings = []
@@ -21,11 +21,11 @@ def load_embeddings(base_dir):
             with open(tfidf_path, 'rb') as f:
                 tfidf = pickle.load(f)
 
-            # 拼接四个段落的 TF-IDF 向量（稀疏拼接）
             vectors = [tfidf.get(k) for k in SECTION_KEYS if k in tfidf]
             if len(vectors) != 4:
                 continue
-            merged_vector = hstack(vectors).toarray()[0]  # 转成稠密向量
+
+            merged_vector = hstack(vectors).toarray()[0]
             embeddings.append(merged_vector)
             folder_names.append(folder)
 
@@ -34,8 +34,7 @@ def load_embeddings(base_dir):
 
     return folder_names, np.array(embeddings)
 
-
-def detect_outliers(folder_names, embeddings, base_dir):
+def detect_outliers_and_score(folder_names, embeddings, base_dir):
     if len(embeddings) < 5:
         print("数据过少，无法有效进行离群点检测。")
         return
@@ -45,16 +44,32 @@ def detect_outliers(folder_names, embeddings, base_dir):
 
     outliers = [folder for folder, pred in zip(folder_names, preds) if pred == -1]
 
-    # 输出为 Outliers.txt
+    # 写入离群点列表
     out_path = os.path.join(base_dir, 'Outliers.txt')
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(outliers))
-
     print(f"检测完成，共识别出 {len(outliers)} 个离群点，已写入 {out_path}")
 
+    # Excel 结果
+    records = []
+    for folder, pred in zip(folder_names, preds):
+        if pred == -1:
+            score = 0
+            remark = "离群点"
+        else:
+            score = 8
+            remark = "正常"
+        records.append({
+            "学生文件夹": folder,
+            "内容语义得分": f"{score}/10",
+            "备注": remark
+        })
 
-# 使用方式
+    df = pd.DataFrame(records)
+    excel_path = os.path.join(base_dir, "ContentSemanticScore.xlsx")
+    df.to_excel(excel_path, index=False)
+    print(f"✅ 已生成内容语义得分 Excel：{excel_path}")
+
 def a04_07_content_emb_outlier(BASE_DIR: str):
-    # BASE_DIR = r'C:\MyPython\ExamScore_AIClass\ExamFiles'
     folder_names, embeddings = load_embeddings(BASE_DIR)
-    detect_outliers(folder_names, embeddings, BASE_DIR)
+    detect_outliers_and_score(folder_names, embeddings, BASE_DIR)
