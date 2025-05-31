@@ -19,39 +19,42 @@ from A05_03_FormToScorerTable import a05_03_form_to_score_table
 from A06_01_Score2ChaoxingTable import a06_01_score2chaoxing_table
 
 root_dir = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20_医学人工智能\结课论文"
+chaoxing_format_file = r'\【Final】结课论文和结课汇报.xls'
 
-"""
+include_video_subscript = 1
+include_formal_paper = 1
+
 a01_01_unzip_files(root_dir)
 
+if include_video_subscript:
+    # 如有视频汇报
+    a02_01_docx2txt(root_dir)
+    a02_11_video_summary(root_dir)
+    a03_01_voice_scorer(root_dir)
+    a03_02_ppt_scorer(root_dir)
+    a03_03_mp4_scorer(root_dir)
 
+if include_formal_paper:
+    # 如有课程论文
+    a04_01_format_scorer(root_dir)
+    a04_02_report_main(root_dir)
 
-a02_01_docx2txt(root_dir)
-a02_11_video_summary(root_dir)
-a03_01_voice_scorer(root_dir)
-a03_02_ppt_scorer(root_dir)
-a03_03_mp4_scorer(root_dir)
+    a04_03_ref_check(root_dir)  # 慢
 
-"""
+    a04_04_refine_ref_error(root_dir)
+    a04_05_report_ref_error(root_dir)
 
-a04_01_format_scorer(root_dir)
-a04_02_report_main(root_dir)
+    a04_06_content_tf_idf(root_dir)
+    a04_07_content_emb_outlier(root_dir)
 
-a04_03_ref_check(root_dir)
+    con_file = root_dir + r"\MergedResult.xlsx"
+    detailed_file = root_dir + r"\MergedResult_Descriptions.xlsx"
+    score_1_file = root_dir + r"\成绩表_明细版.xlsx"
 
-a04_04_refine_ref_error(root_dir)
-a04_05_report_ref_error(root_dir)
+    a05_01_concatenate(root_dir, con_file)
+    a05_02_remove_data_from_comments(con_file, detailed_file)
+    a05_03_form_to_score_table(detailed_file, score_1_file)
 
-a04_06_content_tf_idf(root_dir)
-a04_07_content_emb_outlier(root_dir)
-
-con_file = root_dir + r"\MergedResult.xlsx"
-detailed_file = root_dir + r"\MergedResult_QualitativeDescriptions.xlsx"
-score_1_file = root_dir + r"\成绩表_明细版.xlsx"
-
-a05_01_concatenate(root_dir, con_file)
-a05_02_remove_data_from_comments(con_file, detailed_file)
-a05_03_form_to_score_table(detailed_file, score_1_file)
-
-final_xls_file = root_dir + r'\【Final】结课论文和结课汇报.xls'
-score_f_file = root_dir + r"\整理后的成绩表.xlsx"
-a06_01_score2chaoxing_table(score_1_file, final_xls_file, score_f_file)
+    final_xls_file = root_dir + chaoxing_format_file
+    score_f_file = root_dir + r"\整理后的成绩表.xlsx"
+    a06_01_score2chaoxing_table(score_1_file, final_xls_file, score_f_file)
