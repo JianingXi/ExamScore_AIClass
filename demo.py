@@ -18,8 +18,8 @@ from A05_03_FormToScorerTable import a05_03_form_to_score_table
 
 from A06_01_Score2ChaoxingTable import a06_01_score2chaoxing_table
 
-root_dir = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20_医学人工智能\结课论文"
-chaoxing_format_file = r'\【Final】结课论文和结课汇报.xls'
+root_dir = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20_人工智能与大数据\临床药学-小组报告-课程综述与答辩视频"
+chaoxing_format_file = r'\小组报告-课程综述与答辩视频.xls'
 
 include_video_subscript = 1
 include_formal_paper = 1
@@ -40,7 +40,7 @@ if include_formal_paper:
     a04_02_report_main(root_dir)
 
     a04_03_ref_check(root_dir)  # 慢
-
+    
     a04_04_refine_ref_error(root_dir)
     a04_05_report_ref_error(root_dir)
 
