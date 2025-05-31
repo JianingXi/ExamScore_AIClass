@@ -61,14 +61,14 @@ def detect_outliers_and_score(folder_names, embeddings, base_dir):
             remark = "正常"
         records.append({
             "学生文件夹": folder,
-            "内容语义得分": f"{score}/10",
+            "内容得分": f"{score}/10",
             "备注": remark
         })
 
     df = pd.DataFrame(records)
     excel_path = os.path.join(base_dir, "ContentSemanticScore.xlsx")
     df.to_excel(excel_path, index=False)
-    print(f"✅ 已生成内容语义得分 Excel：{excel_path}")
+    print(f"✅ 已生成内容得分 Excel：{excel_path}")
 
 def a04_07_content_emb_outlier(BASE_DIR: str):
     folder_names, embeddings = load_embeddings(BASE_DIR)

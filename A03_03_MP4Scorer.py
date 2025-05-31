@@ -54,7 +54,7 @@ def process_all(base_dir):
             path = os.path.join(folder, docs[0])
             mp4_score, mp4_comment = score_docx_by_variation(path)
         else:
-            mp4_score, mp4_comment = 0, "未检测到MP4文件，0分。"
+            mp4_score, mp4_comment = 0, "未上传MP4文件，0分。"
 
         # 写入 MP4Score.txt
         with open(os.path.join(folder, "MP4Score.txt"), "w", encoding="utf-8") as f:

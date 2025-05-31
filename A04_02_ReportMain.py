@@ -86,7 +86,7 @@ def generate_missing_sections_report(base_dir, output_path):
             "格式得分": format_score,
             "格式评语": format_comment,
             "缺失章节或空章节": "; ".join(missing_items),
-            "建议得分": f"{suggested_score}/10"
+            "章节得分": f"{suggested_score}/10"
         })
 
     # 写入TXT报告
