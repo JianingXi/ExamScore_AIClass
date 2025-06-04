@@ -47,6 +47,7 @@ if include_formal_paper:
     a04_06_content_tf_idf(root_dir)
     a04_07_content_emb_outlier(root_dir)
 
+if include_video_subscript and include_formal_paper:
     con_file = root_dir + r"\MergedResult.xlsx"
     detailed_file = root_dir + r"\MergedResult_Descriptions.xlsx"
     score_1_file = root_dir + r"\成绩表_明细版.xlsx"
