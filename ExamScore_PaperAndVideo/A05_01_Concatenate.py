@@ -44,5 +44,5 @@ def merge_and_clean_excel_files(folder_path: str, file_names: list[str], output_
 
 def a05_01_concatenate(folder: str, output_file: str):
     # folder = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20_医学人工智能\结课论文"
-    files = ['ContentSemanticScore.xlsx', 'MissingSections_Report.xlsx', 'AllScores.xlsx']
+    files = ['ContentSemanticScore.xlsx', 'MissingSections_Report.xlsx', 'VideoScores.xlsx']
     merge_and_clean_excel_files(folder, files, output_file)

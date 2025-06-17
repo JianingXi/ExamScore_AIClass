@@ -78,7 +78,7 @@ def process_all(base_dir):
     # 写入Excel
     if records:
         df = pd.DataFrame(records)
-        excel_path = os.path.join(base_dir, "AllScores.xlsx")
+        excel_path = os.path.join(base_dir, "VideoScores.xlsx")
         df.to_excel(excel_path, index=False)
         print(f"✅ 已生成完整汇总表：{excel_path}")
 
