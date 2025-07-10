@@ -262,20 +262,29 @@ def replace_exit_code_in_txt_files(root_folder: str, target_text: str):
     return modified_files
 
 
+def select_ans_txt_files(root_folder: str, delete_num_array):
+    traverse_and_convert_doc_to_docx(root_folder)
+    delete_doc_files(root_folder)
+
+    folder_path = traverse_and_convert_docx_to_txt(root_folder, 'txt_files')
+
+    # split_all_txt_in_directory(folder_path)
+    # delete_selected_student_txt(folder_path, target_nums=delete_num_array)
+    for dirpath, dirnames, filenames in os.walk(folder_path):
+        # 跳过根目录，只处理子文件夹
+        if dirpath != folder_path:
+            try:
+                split_all_txt_in_directory(dirpath)
+                delete_selected_student_txt(dirpath, target_nums=delete_num_array)
+                print(f"已处理：{dirpath}")
+            except Exception as e:
+                print(f"处理失败：{dirpath}，错误：{e}")
+
+    # replace_exit_code_in_txt_files(root_folder, "进程已结束,退出代码0")
 
 
-# 示例用法
-root_folder = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20_人工智能与大数据\新建文件夹\23临床药学-2024-2025春季期末考试A卷(word)"  # 替换为你的目录路径
-# traverse_and_convert_doc_to_docx(root_folder)
-# delete_doc_files(root_folder)
-
-folder_path = traverse_and_convert_docx_to_txt(root_folder, 'txt_files')
-
-delete_num_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16]
-
-split_all_txt_in_directory(folder_path)
-delete_selected_student_txt(folder_path, target_nums=delete_num_array)
-
-
-replace_exit_code_in_txt_files(root_folder, "进程已结束,退出代码0")
-
+if __name__ == "__main__":
+    # 示例用法
+    root_folder = r"C:\MyDocument\ToDoList"  # 替换为你的目录路径
+    delete_num_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16]
+    select_ans_txt_files(root_folder, delete_num_array)

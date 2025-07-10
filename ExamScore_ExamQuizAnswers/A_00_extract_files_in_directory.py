@@ -1,7 +1,9 @@
-
 import os
 import zipfile
 import rarfile
+
+import re
+
 
 # 配置 rarfile 使用的解压工具路径
 rarfile.UNRAR_TOOL = r"C:\Program Files\WinRAR\UnRAR.exe"  # 确保路径正确
@@ -48,9 +50,34 @@ def extract_files_in_directory(directory):
                         print(f"Error extracting {file_path}: {e}")
 
 
-# 示例用法
-directory_path = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20_人工智能与大数据\新建文件夹\23临床药学-2024-2025春季期末考试A卷(word)"  # 替换为你的目录路径
-extract_files_in_directory(directory_path)
+# 不修改你的函数，只负责调用
+def is_compressed_file(filename):
+    compressed_extensions = ['.zip', '.rar', '.7z', '.tar', '.gz']
+    return any(filename.lower().endswith(ext) for ext in compressed_extensions)
 
+# 将文件名中的非法字符替换为下划线
+def sanitize_filename(filename):
+    # 只保留中文、英文字母、数字、点、下划线和连字符，其他都换成 _
+    return re.sub(r'[^\w\u4e00-\u9fff.-]', '_', filename)
 
+def extract_all_in_directory(target_folder):
+    for root, dirs, files in os.walk(target_folder):
+        for file in files:
+            if is_compressed_file(file):
+                original_path = os.path.join(root, file)
+                sanitized_name = sanitize_filename(file)
+                sanitized_path = os.path.join(root, sanitized_name)
 
+                # 如果名字变了，先重命名
+                if sanitized_path != original_path:
+                    try:
+                        os.rename(original_path, sanitized_path)
+                        print(f"已重命名：{original_path} -> {sanitized_path}")
+                    except Exception as e:
+                        print(f"重命名失败：{original_path}，错误：{e}")
+                        continue  # 跳过无法处理的文件
+    extract_files_in_directory(target_folder)
+
+if __name__ == "__main__":
+    folder_path = r"C:\Users\xijia\Desktop\批改web\S01_Raw\临I南山Web2班2-2-2024-2025-2_Web_A卷_-2_word_"
+    extract_all_in_directory(folder_path)
