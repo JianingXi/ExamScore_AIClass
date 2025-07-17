@@ -23,8 +23,13 @@ exam_file_base_name = \
 
 
 folder_path = r"C:\Users\xijia\Desktop\批改web\S01_Raw"
-# extract_all_in_directory(folder_path)
 """
+extract_all_in_directory(folder_path)
+
+# 获取所有子文件夹名称
+exam_file_base_name = [name for name in os.listdir(folder_path)
+                if os.path.isdir(os.path.join(folder_path, name))]
+
 for i_rar in range(len(exam_file_base_name)):
     folder_path_t = os.path.join(folder_path, exam_file_base_name[i_rar])
     extract_all_in_directory(folder_path_t)
