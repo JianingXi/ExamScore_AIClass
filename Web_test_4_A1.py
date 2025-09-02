@@ -84,7 +84,7 @@ def grade_all_html_txts_in_folder(folder: str, output_excel: str):
     base_path = Path(folder)
     records = []
 
-    for txt_file in base_path.rglob("*.txt"):
+    for txt_file in base_path.rglob("*page1.txt"):
         try:
             html_code = txt_file.read_text(encoding="utf-8")
         except:
@@ -117,7 +117,18 @@ def grade_all_html_txts_in_folder(folder: str, output_excel: str):
     df.to_excel(output_excel, index=False)
     print(f"✅ 评分完成，共处理 {len(df)} 份试卷。结果保存于：{output_excel}")
 
-grade_all_html_txts_in_folder(
-    folder=r"C:\Users\xijia\Desktop\批改web\S03_test_files_html\儿生预web1班2-1-2024-2025-2_Web_A卷_-2_word_",
-    output_excel=r"C:\Users\xijia\Desktop\批改web\S03_test_files_html\儿生预web1班2-1-2024-2025-2_Web_A卷_-2_word_评分结果page1.xlsx"
-)
+txt_base_folder = r"C:\Users\xijia\Desktop\批改web\S02_TXT"
+exam_file_base_name = \
+    ["儿生预web1班2-1-2024-2025-2_Web（A卷）-2(word)",
+     "临I南山Web2班2-2-2024-2025-2_Web（A卷）-2(word)",
+    ]
+html_or_ordered = \
+    ["txt_files_1_ordered",
+     "txt_files_2_html"
+    ]
+
+for name in exam_file_base_name:
+    for dir_temp in html_or_ordered:
+        fold_1 = txt_base_folder + "\\" + dir_temp + "\\" + name
+        file_excel = txt_base_folder + "\\" + dir_temp + "\\" + name + "_评分结果page1.xlsx"
+        grade_all_html_txts_in_folder(fold_1, file_excel)

@@ -105,7 +105,7 @@ def batch_grade_page2_movie_to_excel(folder: str, output_excel: str):
     folder_path = Path(folder)
     records = []
 
-    for file in folder_path.rglob("*.txt"):
+    for file in folder_path.rglob("*page2.txt"):
         try:
             code = file.read_text(encoding="utf-8")
         except Exception as e:
@@ -130,13 +130,18 @@ def batch_grade_page2_movie_to_excel(folder: str, output_excel: str):
     print(f"✅ 已导出评分结果至：{output_excel}")
 
 
-def main():
-    input_folder = r"C:\Users\xijia\Desktop\批改web\S03_test_files_html\临2六中web2班2-3-2024-2025-2_Web期末考试_B卷__word_"
-    output_excel = r"C:\Users\xijia\Desktop\批改web\S03_test_files_html\临2六中web2班2-3-2024-2025-2_Web期末考试_B卷__word_评分结果page2.xlsx"
-    batch_grade_page2_movie_to_excel(input_folder, output_excel)
-
-if __name__ == "__main__":
-    main()
 
 
-
+exam_file_base_name = \
+    ["临2六中web2班2-3-2024-2025-2_Web期末考试（B卷）(word)",
+    ]
+html_or_ordered = \
+    ["txt_files_1_ordered",
+     "txt_files_2_html"
+    ]
+txt_base_folder = r"C:\Users\xijia\Desktop\批改web\S02_TXT"
+for name in exam_file_base_name:
+    for dir_temp in html_or_ordered:
+        fold_1 = txt_base_folder + "\\" + dir_temp + "\\" + name
+        file_excel = txt_base_folder + "\\" + dir_temp + "\\" + name + "_评分结果page2.xlsx"
+        batch_grade_page2_movie_to_excel(fold_1, file_excel)

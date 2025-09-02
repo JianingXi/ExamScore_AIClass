@@ -1,6 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
+
 def overwrite_first_col_with_id_name(folder_path: str):
     folder = Path(folder_path)
     excel_files = list(folder.glob("*.xlsx"))
@@ -28,8 +29,6 @@ def overwrite_first_col_with_id_name(folder_path: str):
             print(f"❌ 处理失败：{file.name}，原因：{e}")
 
 
-
-
 def overwrite_excels_by_union(file1_path, file2_path):
     file1 = Path(file1_path)
     file2 = Path(file2_path)
@@ -38,29 +37,45 @@ def overwrite_excels_by_union(file1_path, file2_path):
     df1 = pd.read_excel(file1)
     df2 = pd.read_excel(file2)
 
-    key_col = df1.columns[0]  # 默认第一列为索引键
-
-    # 处理重复值：保留第一次出现的记录
-    df1 = df1.drop_duplicates(subset=key_col, keep="first")
-    df2 = df2.drop_duplicates(subset=key_col, keep="first")
+    key_col = df1.columns[0]
 
     # 取并集
     union_keys = sorted(set(df1[key_col]).union(set(df2[key_col])))
 
-    # 设置索引
-    df1_indexed = df1.set_index(key_col)
-    df2_indexed = df2.set_index(key_col)
+    # 获取 df1 和 df2 中缺失的 key（需要补齐的）
+    df1_missing_keys = set(union_keys) - set(df1[key_col])
+    df2_missing_keys = set(union_keys) - set(df2[key_col])
 
-    # 扩展并填充0
-    df1_aligned = df1_indexed.reindex(union_keys, fill_value=0).reset_index()
-    df2_aligned = df2_indexed.reindex(union_keys, fill_value=0).reset_index()
+    # 构造缺失行的 DataFrame，key列为缺失值，其他列为 0
+    def make_missing_rows(missing_keys, columns):
+        data = {col: [0]*len(missing_keys) for col in columns}
+        data[key_col] = list(missing_keys)
+        return pd.DataFrame(data, columns=columns)
 
-    # 覆盖保存
-    df1_aligned.to_excel(file1, index=False)
-    df2_aligned.to_excel(file2, index=False)
+    # 用于保留列顺序
+    columns1 = df1.columns.tolist()
+    columns2 = df2.columns.tolist()
 
-    print(f"✅ 已覆盖并对齐：\n - {file1.name}\n - {file2.name}")
+    # 添加缺失行
+    if df1_missing_keys:
+        df1 = pd.concat([df1, make_missing_rows(df1_missing_keys, columns1)], ignore_index=True)
 
+    if df2_missing_keys:
+        df2 = pd.concat([df2, make_missing_rows(df2_missing_keys, columns2)], ignore_index=True)
+
+    # 按 key 排序（可选）
+    df1 = df1.sort_values(by=key_col).reset_index(drop=True)
+    df2 = df2.sort_values(by=key_col).reset_index(drop=True)
+
+    # 删除原文件
+    file1.unlink()
+    file2.unlink()
+
+    # 保存新文件
+    df1.to_excel(file1, index=False)
+    df2.to_excel(file2, index=False)
+
+    print(f"✅ 已补齐缺失 key 并保存：\n - {file1.name}\n - {file2.name}")
 
 
 def compare_excel_rows(file1_path, file2_path, output_path, label_file1="file1", label_file2="file2"):
@@ -104,8 +119,6 @@ def compare_excel_rows(file1_path, file2_path, output_path, label_file1="file1",
     print(f"✅ 已保存合并结果到：{output_path}")
 
 
-
-
 # 分数和评语分开
 def rearrange_columns(file_path):
     # 读取 Excel 文件
@@ -130,7 +143,6 @@ def rearrange_columns(file_path):
     print(f"✅ 已处理并覆盖文件：{file_path}")
 
 
-
 # page1-X 合并
 
 
@@ -142,7 +154,7 @@ def merge_excels_by_first_column(file_dir: str, file_names: list, output_name="m
         file_path = Path(file_dir) / file_name
         df = pd.read_excel(file_path)
         df = df.drop_duplicates(subset=df.columns[0])  # 去除重复 key
-        df = df.set_index(df.columns[0])               # 设置第一列为索引
+        df = df.set_index(df.columns[0])  # 设置第一列为索引
         dfs.append(df)
         all_keys.update(df.index.tolist())
 

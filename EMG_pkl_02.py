@@ -87,7 +87,7 @@ def print_tree(start_path, prefix=""):
 
 
 # 目标路径（修改为你的路径）
-target_folder = r"C:\Users\xijia\Desktop\腰部肌电信号采集数据\B01处理_验证码\班级-23生工-春-第四次实验-腰部疲劳肌电采集分析实验_word_"
+target_folder = r"C:\Users\xijia\Desktop\腰部肌电信号采集数据\B01处理_数据\班级-23生工-春-第四次实验-腰部疲劳肌电采集分析实验_word_"
 
 for i_ind in range(8):
     flatten_all_folders(target_folder)
@@ -95,4 +95,5 @@ for i_ind in range(8):
 print_tree(target_folder)
 
 delete_num_array = [1, 2]
-select_ans_txt_files(target_folder, delete_num_array)
+txt_folder_path = target_folder + r"\txt_files"
+# select_ans_txt_files(target_folder, txt_folder_path, delete_num_array)

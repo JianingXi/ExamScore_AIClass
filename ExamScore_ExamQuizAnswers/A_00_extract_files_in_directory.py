@@ -57,8 +57,10 @@ def is_compressed_file(filename):
 
 # 将文件名中的非法字符替换为下划线
 def sanitize_filename(filename):
-    # 只保留中文、英文字母、数字、点、下划线和连字符，其他都换成 _
-    return re.sub(r'[^\w\u4e00-\u9fff.-]', '_', filename)
+    # 仅替换空格和制表符为下划线
+    return re.sub(r'[ \t]', '_', filename)
+
+
 
 def extract_all_in_directory(target_folder):
     for root, dirs, files in os.walk(target_folder):

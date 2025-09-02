@@ -180,25 +180,25 @@ def find_max_similarity_question_indices(tensor):
     return pd.DataFrame(result)
 
 
-
 def sim_match_best_ans(txt_folder_path, exam_file_base_name, html_path, html_file_base_name, skip_question, num_question):
     for i_class in range(len(exam_file_base_name)):
         exam_file_temp = os.path.join(txt_folder_path, exam_file_base_name[i_class])
-
         print(exam_file_temp)
 
         try:
             tensor, students, questions = build_similarity_tensor(
                 exam_file_temp, html_path, html_file_base_name, skip_question, num_question)
-        except:
-            print(exam_file_temp)
+        except Exception as e:
+            print(f"❌ 构建相似度张量失败：{exam_file_temp}")
             print(html_path)
             print(html_file_base_name)
             print(skip_question)
             print(num_question)
+            print(f"错误详情：{e}")
+            continue  # ✅ 跳过当前循环，不再执行后续逻辑
 
         question_max_df = find_max_similarity_question_indices(tensor) + skip_question + 1
-        question_max_df.columns = [f"page_{i + 1}" for i in range(question_max_df.shape[1])]
+        question_max_df.columns = [f"page{i + 1}" for i in range(question_max_df.shape[1])]
         question_max_df.insert(0, "basename", students)
 
         # 保存为 Excel 文件
@@ -222,14 +222,14 @@ def copy_and_rename_by_similarity_excel(
 ):
     """
     递归扫描 input_folder 中所有 _0XX.txt 文件，根据 excel_path 中的相似性表格，
-    找出对应的 page_X，复制文件并将其命名为 _page_X.txt 到 output_folder。
+    找出对应的 pageX，复制文件并将其命名为 _pageX.txt 到 output_folder。
     """
 
     os.makedirs(output_folder, exist_ok=True)
     df = pd.read_excel(excel_path)
 
-    # 自动识别 page_X 列
-    page_cols = [col for col in df.columns if str(col).startswith("page_")]
+    # 自动识别 pageX 列
+    page_cols = [col for col in df.columns if str(col).startswith("page")]
 
     # 递归查找所有 .txt 文件
     for root, _, files in os.walk(input_folder):
@@ -270,13 +270,13 @@ def copy_and_rename_by_similarity_excel(
 
 
 # move best match file according to excel dictionary
-def batch_similarity_move_by_excel(exam_folder_path: str, exam_file_base_name: list):
+def batch_similarity_move_by_excel(exam_folder_sim_excel_path: str, exam_folder_ordered_path: str, exam_file_base_name: list):
     """
     对多个试卷目录批量调用 copy_and_rename_by_similarity_excel，
     前提是每个试卷文件夹下存在同名的 "_相似性.xlsx" 文件。
     """
     for name in exam_file_base_name:
-        file_path = os.path.join(exam_folder_path, "S02_txt_files", name + "_相似性.xlsx")
+        file_path = os.path.join(exam_folder_sim_excel_path, name + "_相似性.xlsx")
         print(f"\n📂 正在处理：{name}")
 
         if os.path.exists(file_path):
@@ -285,8 +285,8 @@ def batch_similarity_move_by_excel(exam_folder_path: str, exam_file_base_name: l
 
             # 调用你已有的函数（无需重写）
             copy_and_rename_by_similarity_excel(
-                input_folder=os.path.join(exam_folder_path, "S02_txt_files", name),
-                output_folder=os.path.join(exam_folder_path, "S03_test_files_ordered", name),
+                input_folder=os.path.join(exam_folder_sim_excel_path, name),
+                output_folder=os.path.join(exam_folder_ordered_path, name),
                 excel_path=file_path
             )
         else:
@@ -294,19 +294,19 @@ def batch_similarity_move_by_excel(exam_folder_path: str, exam_file_base_name: l
 
 
 
-def rename_txt_files_by_student_info(exam_folder_path: str, class_folder_name: str):
+def rename_txt_files_by_student_info(exam_folder_ordered_path: str, class_folder_name: str):
     """
     将指定班级文件夹下所有 .txt 文件重命名为：
-    学号_姓名_student_page_N.txt 的格式
+    学号_姓名_student_pageN.txt 的格式
     """
-    folder = Path(exam_folder_path) / "S03_test_files_ordered" / class_folder_name
+    folder = Path(exam_folder_ordered_path) / class_folder_name
 
     if not folder.exists():
         print(f"❌ 文件夹不存在：{folder}")
         return
 
     pattern = re.compile(
-        r"^.+?-(\d{10})-([\u4e00-\u9fa5·]{1,20})-.*?(student_page_\d)\.txt$"
+        r"^.+?-(\d{10})-([\u4e00-\u9fa5·]{1,20})-.*?(student_page\d)\.txt$"
     )
     print(f"❌")
     for file in folder.glob("*.txt"):
@@ -322,23 +322,14 @@ def rename_txt_files_by_student_info(exam_folder_path: str, class_folder_name: s
 
 
 # move best match file according to excel dictionary
-def batch_txt_files_by_student_info(exam_folder_path: str, exam_file_base_name: list):
+def batch_txt_rename_by_student_info(exam_folder_ordered_path: str, exam_file_base_name: list):
     """
     对多个试卷目录批量调用 copy_and_rename_by_similarity_excel，
     前提是每个试卷文件夹下存在同名的 "_相似性.xlsx" 文件。
     """
     for name in exam_file_base_name:
-        file_path = os.path.join(exam_folder_path, "S02_txt_files", name + "_相似性.xlsx")
-        print(f"\n📂 正在处理：{name}")
-
-        if os.path.exists(file_path):
-            df_file_match = pd.read_excel(file_path)
-
-            # 调用你已有的函数（无需重写）
-            rename_txt_files_by_student_info(
-                exam_folder_path=exam_folder_path,
-                class_folder_name=name
-            )
-
-        else:
-            print(f"❌ 文件不存在：{file_path}")
+        # 调用你已有的函数（无需重写）
+        rename_txt_files_by_student_info(
+            exam_folder_ordered_path=exam_folder_ordered_path,
+            class_folder_name=name
+        )

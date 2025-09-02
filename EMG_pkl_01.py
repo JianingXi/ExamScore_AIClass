@@ -25,9 +25,10 @@ for i_rar in range(len(exam_file_base_name)):
         extract_all_in_directory(folder_path_t_inner)
 
     delete_num_array = [1, 2]
-    select_ans_txt_files(folder_path_t, delete_num_array)
+    txt_folder_path = folder_path_t + r"\txt_files"
+    select_ans_txt_files(folder_path_t, txt_folder_path, delete_num_array)
 
-    # txt_folder_path = folder_path_t + r"\txt_files"
+
 
     # 保存结果的列表
     combined_folder_names = []

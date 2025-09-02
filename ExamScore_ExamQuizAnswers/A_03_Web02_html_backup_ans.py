@@ -24,10 +24,11 @@ def convert_html_batch(source_root: str, target_root: str):
 
     # 遍历所有子目录
     for root, dirs, files in os.walk(source_root):
+        print(files)
         file_set = set(files)
         required_pages = {"page1.html", "page2.html", "page3.html"}
 
-        if required_pages.issubset(file_set):
+        if not required_pages.isdisjoint(file_set):
             current_folder = Path(root)
             relative = current_folder.relative_to(source_root)
             top_level = relative.parts[0] if len(relative.parts) > 0 else current_folder.name
@@ -88,7 +89,7 @@ def flatten_and_rename_txt_files(folder_path: str):
             print(f"🧹 删除空文件夹：{folder}")
 
 
-def convert_html_to_backup_answers(exam_folder_path, exam_file_base_names):
+def convert_html_to_backup_answers(exam_folder_path_raw: str, exam_folder_path_html: str, exam_file_base_names: list):
     """
     将一批 HTML 题目转为备用答案 txt，并统一重命名。
 
@@ -96,12 +97,14 @@ def convert_html_to_backup_answers(exam_folder_path, exam_file_base_names):
     - exam_folder_path: 根目录路径，例如 "C:\\Users\\xijia\\Desktop\\批改web"
     - exam_file_base_names: 文件夹名列表，例如 ["xxx_word_", "yyy_word_"]
     """
+
     for name in exam_file_base_names:
+        print(exam_folder_path_raw + '\\' + name)
         convert_html_batch(
-            source_root = exam_folder_path + "\\S01_Raw\\" + name,
-            target_root = exam_folder_path + "\\S03_test_files_html\\" + name
+            source_root = exam_folder_path_raw + '\\' + name,
+            target_root = exam_folder_path_html + '\\' + name
         )
 
         flatten_and_rename_txt_files(
-            folder_path = exam_folder_path + "\\S03_test_files_html\\" + name
+            folder_path = exam_folder_path_html + '\\' + name
         )

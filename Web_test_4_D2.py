@@ -45,7 +45,7 @@ def batch_grade_page2_checkbox_to_excel(folder: str, output_excel: str):
     folder_path = Path(folder)
     records = []
 
-    for file in folder_path.rglob("*.txt"):
+    for file in folder_path.rglob("*page2.txt"):
         try:
             code = file.read_text(encoding="utf-8")
         except Exception as e:
@@ -69,14 +69,20 @@ def batch_grade_page2_checkbox_to_excel(folder: str, output_excel: str):
     df.to_excel(output_excel, index=False)
     print(f"✅ 批改完成，结果已保存到：{output_excel}")
 
-def main():
-    input_folder = r"C:\Users\xijia\Desktop\批改web\S03_test_files_ordered\口麻影Web1班4-4-2024-2025-2_Web期末考试_影像_麻醉_口腔__word_"  # ← 修改为你的文件夹路径
-    output_excel = r"C:\Users\xijia\Desktop\批改web\S03_test_files_ordered\口麻影Web1班4-4-2024-2025-2_Web期末考试_影像_麻醉_口腔__word_评分结果page2.xlsx"       # ← 输出 Excel 路径
 
-    batch_grade_page2_checkbox_to_excel(input_folder, output_excel)
 
 if __name__ == "__main__":
-    main()
-
-
-
+    exam_file_base_name = [
+        "护理检验web1班4-3-2024-2025-2_Web期末考试（护理、检验）(word)",
+        "口麻影Web1班4-4-2024-2025-2_Web期末考试（影像、麻醉、口腔）(word)",
+    ]
+    html_or_ordered = [
+        "txt_files_1_ordered",
+        "txt_files_2_html"
+    ]
+    txt_base_folder = r"C:\Users\xijia\Desktop\批改web\S02_TXT"
+    for name in exam_file_base_name:
+        for subdir in html_or_ordered:
+            folder = fr"{txt_base_folder}\{subdir}\{name}"
+            output_excel = fr"{folder}_评分结果page2.xlsx"
+            batch_grade_page2_checkbox_to_excel(folder, output_excel)

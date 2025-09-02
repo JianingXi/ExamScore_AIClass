@@ -135,14 +135,12 @@ def convert_docx_to_txt(input_file, output_file):
         print(f"转换过程中发生错误: {e}")
 
 
-def traverse_and_convert_docx_to_txt(root_folder, new_folder):
+def traverse_and_convert_docx_to_txt(root_folder, output_root_folder):
     """
     遍历给定的根文件夹，并将所有 Word 文档转换为文本文件，存储在当前目录下的新建文件夹 txt_files 中。
 
     :param root_folder: 要遍历的根文件夹路径。
     """
-    # 定义输出文件夹路径
-    output_root_folder = os.path.join(root_folder, new_folder)
     # 确保输出文件夹存在，若不存在则创建
     os.makedirs(output_root_folder, exist_ok=True)
 
@@ -163,7 +161,6 @@ def traverse_and_convert_docx_to_txt(root_folder, new_folder):
                 output_file = os.path.join(output_file_dir, os.path.basename(relative_path).replace('.docx', '.txt'))
                 # 调用转换函数，将 Word 文档转换为文本文件
                 convert_docx_to_txt(input_file, output_file)
-    return output_root_folder
 
 
 def extract_student_answers_only(file_path):
@@ -261,30 +258,23 @@ def replace_exit_code_in_txt_files(root_folder: str, target_text: str):
     print(f"✅ 处理完成，共修改 {len(modified_files)} 个文件。")
     return modified_files
 
+def select_ans_txt_files(root_folder: str, out_folder: str, delete_num_array):
 
-def select_ans_txt_files(root_folder: str, delete_num_array):
     traverse_and_convert_doc_to_docx(root_folder)
     delete_doc_files(root_folder)
 
-    folder_path = traverse_and_convert_docx_to_txt(root_folder, 'txt_files')
+    traverse_and_convert_docx_to_txt(root_folder, out_folder)
 
-    # split_all_txt_in_directory(folder_path)
-    # delete_selected_student_txt(folder_path, target_nums=delete_num_array)
-    for dirpath, dirnames, filenames in os.walk(folder_path):
+    # 遍历所有子文件夹
+    for dirpath, dirnames, filenames in os.walk(out_folder):
         # 跳过根目录，只处理子文件夹
-        if dirpath != folder_path:
+        if dirpath != out_folder:
             try:
                 split_all_txt_in_directory(dirpath)
                 delete_selected_student_txt(dirpath, target_nums=delete_num_array)
-                print(f"已处理：{dirpath}")
+                print(f"✅ 已处理子目录：{dirpath}")
             except Exception as e:
-                print(f"处理失败：{dirpath}，错误：{e}")
+                print(f"❌ 处理失败：{dirpath}，错误：{e}")
 
     # replace_exit_code_in_txt_files(root_folder, "进程已结束,退出代码0")
 
-
-if __name__ == "__main__":
-    # 示例用法
-    root_folder = r"C:\MyDocument\ToDoList"  # 替换为你的目录路径
-    delete_num_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16]
-    select_ans_txt_files(root_folder, delete_num_array)
