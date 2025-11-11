@@ -87,7 +87,7 @@ def print_tree(start_path, prefix=""):
 
 
 # 目标路径（修改为你的路径）
-target_folder = r"C:\Users\xijia\Desktop\腰部肌电信号采集数据\B01处理_数据\班级-23生工-春-第四次实验-腰部疲劳肌电采集分析实验_word_"
+target_folder = r"C:\Users\xijia\Desktop\检查计算机应用基础这门课资料\评估资料-留学生计算机基础"
 
 for i_ind in range(8):
     flatten_all_folders(target_folder)
