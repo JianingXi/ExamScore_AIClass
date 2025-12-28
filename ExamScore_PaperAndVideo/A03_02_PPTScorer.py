@@ -51,6 +51,130 @@ def is_default_office_template(prs: Presentation) -> bool:
     return False
 
 
+from pptx import Presentation
+from pptx.enum.shapes import MSO_SHAPE_TYPE, PP_PLACEHOLDER
+import json
+import os
+
+
+def is_section_header(slide):
+    """
+    判断是否为 Section Header 页
+    """
+    for shape in slide.shapes:
+        if shape.is_placeholder:
+            if shape.placeholder_format.type == PP_PLACEHOLDER.TITLE:
+                text = shape.text.strip()
+                if text and len(text.split()) <= 10:
+                    return True
+    return False
+
+
+def extract_slide_content(slide):
+    """
+    提取单页内容
+    """
+    contents = []
+    figures = 0
+    tables = 0
+
+    for shape in slide.shapes:
+
+        # 文本
+        if shape.has_text_frame:
+            for p in shape.text_frame.paragraphs:
+                text = p.text.strip()
+                if text:
+                    contents.append({
+                        "type": "text",
+                        "level": p.level,
+                        "text": text
+                    })
+
+        # 图片
+        if shape.shape_type == MSO_SHAPE_TYPE.PICTURE:
+            figures += 1
+
+        # 表格
+        if shape.has_table:
+            tables += 1
+
+    # Notes
+    notes = None
+    if slide.has_notes_slide:
+        notes = slide.notes_slide.notes_text_frame.text.strip()
+
+    return contents, figures, tables, notes
+
+
+def ppt_to_paper_json(ppt_path, output_json):
+    prs = Presentation(ppt_path)
+
+    paper = {
+        "meta": {
+            "source": os.path.basename(ppt_path),
+            "slide_count": len(prs.slides)
+        },
+        "sections": []
+    }
+
+    current_section = None
+    section_id = 0
+
+    for idx, slide in enumerate(prs.slides, start=1):
+
+        # 识别 Section Header
+        if is_section_header(slide):
+            section_id += 1
+
+            title = None
+            for shape in slide.shapes:
+                if shape.is_placeholder and shape.placeholder_format.type == PP_PLACEHOLDER.TITLE:
+                    title = shape.text.strip()
+
+            current_section = {
+                "section_id": section_id,
+                "title": title if title else f"Section {section_id}",
+                "slides": [idx],
+                "content": [],
+                "figures": 0,
+                "tables": 0,
+                "notes": ""
+            }
+
+            paper["sections"].append(current_section)
+            continue
+
+        # 普通内容页
+        if current_section is None:
+            # 没有 section header，自动生成 Abstract / Introduction
+            section_id += 1
+            current_section = {
+                "section_id": section_id,
+                "title": "Introduction",
+                "slides": [],
+                "content": [],
+                "figures": 0,
+                "tables": 0,
+                "notes": ""
+            }
+            paper["sections"].append(current_section)
+
+        contents, figs, tabs, notes = extract_slide_content(slide)
+
+        current_section["slides"].append(idx)
+        current_section["content"].extend(contents)
+        current_section["figures"] += figs
+        current_section["tables"] += tabs
+
+        if notes:
+            current_section["notes"] += notes + "\n"
+
+    with open(output_json, "w", encoding="utf-8") as f:
+        json.dump(paper, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ JSON saved to {output_json}")
+
 def analyze_ppt(folder: Path):
     """
     对单个学生文件夹中的 PPT 进行配色与排版评估

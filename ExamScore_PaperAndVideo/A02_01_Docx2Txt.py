@@ -38,7 +38,7 @@ CHINESE_HEADING_PATTERN = re.compile(r"^[一二三四五六七八九十]、")
 # 新增：演讲稿/讲稿等关键词
 SPEECH_KEYWORDS = [
     "讲稿", "演讲稿", "演讲提纲", "讲演稿", "演说稿", "发言稿",
-    "讲话稿", "发言提纲", "会议发言", "汇报稿"
+    "讲话稿", "发言提纲", "会议发言", "汇报稿", "文字稿"
 ]
 
 def is_transcript(text: str) -> bool:
