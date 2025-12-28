@@ -23,7 +23,7 @@ from ExamScore_PaperAndVideo.B01_batch_deepseek_folder_scorer import batch_two_s
 
 
 def main():
-    root_dir = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20251228_作品汇总与评分表_广州医科大学第三届研究生创新论坛\赛道2：学术科技或社会实践活动成果_广州医科大学第三届研究生创新论坛"
+    root_dir = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20251228_作品汇总与评分表_广州医科大学第三届研究生创新论坛\赛道3：科研成果转化_广州医科大学第三届研究生创新论坛"
 
     include_video_subscript = 1
 
