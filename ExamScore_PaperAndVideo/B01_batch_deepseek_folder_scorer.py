@@ -1,197 +1,202 @@
+# B01_batch_deepseek_folder_scorer.py
+
 import os
 import re
 import json
+import time
+import requests
 import pandas as pd
 from dotenv import load_dotenv
-import requests
+
+from ExamScore_PaperAndVideo.B01_scoring_prompts import (
+    STAGE1_SYSTEM_PROMPT,
+    STAGE2_SYSTEM_PROMPT,
+    COMMENT_ONLY_SYSTEM_PROMPT,
+    build_stage1_user_prompt,
+    build_stage2_user_prompt,
+    build_comment_only_prompt
+)
 
 # =========================================================
 # 基础配置
 # =========================================================
 
 load_dotenv()
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+API_KEY = os.getenv("DEEPSEEK_API_KEY")
 
 API_URL = "https://api.deepseek.com/v1/chat/completions"
-MODEL_NAME = "deepseek-chat"
+MODEL = "deepseek-chat"
 
-SUPPORTED_IMAGE_EXT = (".jpg", ".jpeg", ".png", ".bmp", ".webp")
+SUPPORTED_TEXT = (".txt", ".json")
+SUPPORTED_IMAGE = (".jpg", ".jpeg", ".png", ".bmp", ".webp")
 
-# =========================================================
-# 1. 姓名提取（从文件夹名）
-# =========================================================
-
-def extract_name_from_folder(folder_name: str):
-    matches = re.findall(r'[\u4e00-\u9fa5]{2,4}', folder_name)
-    return matches[0] if matches else ""
+HEADERS = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json"
+}
 
 # =========================================================
-# 2. 读取文件夹内容（文本 + 文件名摘要）
+# 工具函数
 # =========================================================
 
-def collect_folder_materials(folder_path: str):
-    texts = []
+def extract_name(folder_name: str) -> str:
+    m = re.findall(r'[\u4e00-\u9fa5]{2,4}', folder_name)
+    return m[0] if m else folder_name
 
-    for root, _, files in os.walk(folder_path):
-        for f in files:
-            fp = os.path.join(root, f)
+def safe_parse_json(text: str):
+    if not text:
+        raise ValueError("Empty response")
 
-            # txt
-            if f.lower().endswith(".txt"):
-                try:
-                    with open(fp, "r", encoding="utf-8", errors="ignore") as fr:
-                        texts.append(fr.read())
-                except Exception:
-                    pass
+    text = text.strip()
+    if text.startswith("{"):
+        return json.loads(text)
 
-            # json
-            elif f.lower().endswith(".json"):
-                try:
-                    with open(fp, "r", encoding="utf-8", errors="ignore") as fr:
-                        texts.append(fr.read())
-                except Exception:
-                    pass
+    s, e = text.find("{"), text.rfind("}")
+    if s != -1 and e != -1:
+        return json.loads(text[s:e + 1])
 
-            # image（只记录存在性，不传图）
-            elif f.lower().endswith(SUPPORTED_IMAGE_EXT):
-                texts.append(f"[图片文件] {f}")
+    raise ValueError("No valid JSON")
 
-    return "\n".join(texts)[:12000]  # 防止 prompt 过长
-
-# =========================================================
-# 3. DeepSeek 评分调用
-# =========================================================
-
-def deepseek_score(prompt: str):
-    headers = {
-        "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
-        "Content-Type": "application/json"
-    }
-
-    system_prompt = (
-        "你是一名高校学术竞赛评审专家。"
-        "请根据给定材料进行评分，输出 JSON。"
-    )
-
-    user_prompt = f"""
-请根据以下材料进行评分（总分100）：
-
-评分维度：
-- 作品创新性（30）
-- 学术严谨性（30）
-- 报告逻辑性（20）
-- 表达能力（20）
-
-要求：
-1. 每项给整数分
-2. 给出 50–80 字中文评语
-3. 输出 JSON，格式如下：
-{{
-  "innovation": int,
-  "rigor": int,
-  "logic": int,
-  "expression": int,
-  "comment": "评语"
-}}
-
-材料如下：
-----------------
-{prompt}
-----------------
-"""
-
-    data = {
-        "model": MODEL_NAME,
+def call_llm(system_prompt, user_prompt, temperature=0.3, retry=2):
+    payload = {
+        "model": MODEL,
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
         ],
-        "temperature": 0.4
+        "temperature": temperature
     }
 
-    resp = requests.post(API_URL, headers=headers, json=data, timeout=60)
-    resp.raise_for_status()
-    content = resp.json()["choices"][0]["message"]["content"]
-
-    return json.loads(content)
-
-# =========================================================
-# 4. 分数区间强制规范（65–95）
-# =========================================================
-
-def normalize_score_range(i, r, l, e, min_total=65, max_total=95):
-    raw_total = i + r + l + e
-
-    if raw_total == 0:
-        return 16, 20, 14, 15, 65
-
-    if min_total <= raw_total <= max_total:
-        return i, r, l, e, raw_total
-
-    target = min_total if raw_total < min_total else max_total
-    scale = target / raw_total
-
-    i2 = round(i * scale)
-    r2 = round(r * scale)
-    l2 = round(l * scale)
-    e2 = round(e * scale)
-
-    diff = target - (i2 + r2 + l2 + e2)
-    i2 += diff  # 补到创新性
-
-    return i2, r2, l2, e2, target
+    for i in range(retry + 1):
+        try:
+            r = requests.post(API_URL, headers=HEADERS, json=payload, timeout=60)
+            r.raise_for_status()
+            return safe_parse_json(
+                r.json()["choices"][0]["message"]["content"]
+            )
+        except Exception:
+            if i == retry:
+                raise
+            time.sleep(2)
 
 # =========================================================
-# 5. 主批处理流程 → Excel
+# Stage 1：单文件压缩理解
 # =========================================================
 
-def batch_score_to_excel(root_dir: str):
+def summarize_single_file(file_path: str) -> dict:
+    ext = os.path.splitext(file_path)[1].lower()
+
+    if ext in SUPPORTED_TEXT:
+        with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+            material = f.read()[:4000]
+    elif ext in SUPPORTED_IMAGE:
+        material = f"图片文件：{os.path.basename(file_path)}，用于科研成果或学术汇报展示。"
+    else:
+        material = f"文件名：{os.path.basename(file_path)}（无法解析内容）"
+
+    return call_llm(
+        STAGE1_SYSTEM_PROMPT,
+        build_stage1_user_prompt(material)
+    )
+
+# =========================================================
+# Stage 2：作品级评分（锁定评分模板）
+# =========================================================
+
+def score_whole_work(summaries: list, locked_schema: list | None):
+    merged = json.dumps(summaries, ensure_ascii=False)
+    user_prompt = build_stage2_user_prompt(
+        merged,
+        locked_schema=locked_schema
+    )
+
+    raw = call_llm(STAGE2_SYSTEM_PROMPT, user_prompt)
+    scores = raw["scores"]
+    comment = raw["comment"]
+    total = sum(scores.values())
+    return scores, total, comment
+
+# =========================================================
+# 主流程（一次运行 = 一个批次）
+# =========================================================
+
+def batch_two_stage_score(root_dir: str):
     records = []
+    locked_schema = None
+    drift_warnings = []
 
-    for d in os.listdir(root_dir):
-        folder = os.path.join(root_dir, d)
-        if not os.path.isdir(folder):
+    for folder in os.listdir(root_dir):
+        folder_path = os.path.join(root_dir, folder)
+        if not os.path.isdir(folder_path):
             continue
 
-        print(f"▶ 评分中: {d}")
+        print(f"▶ 评分中: {folder}")
+        name = extract_name(folder)
 
-        name = extract_name_from_folder(d)
-        materials = collect_folder_materials(folder)
+        summary_dir = os.path.join(folder_path, "summaries")
+        os.makedirs(summary_dir, exist_ok=True)
 
-        try:
-            result = deepseek_score(materials)
+        summaries = []
 
-            i, r, l, e, total = normalize_score_range(
-                result["innovation"],
-                result["rigor"],
-                result["logic"],
-                result["expression"]
-            )
+        # ---------- Stage 1 ----------
+        for f in os.listdir(folder_path):
+            fp = os.path.join(folder_path, f)
+            if not os.path.isfile(fp):
+                continue
+            if not f.lower().endswith(SUPPORTED_TEXT + SUPPORTED_IMAGE):
+                continue
 
-            records.append({
-                "姓名": name,
-                "文件夹": d,
-                "创新性(30)": i,
-                "学术严谨性(30)": r,
-                "报告逻辑性(20)": l,
-                "表达能力(20)": e,
-                "总分": total,
-                "评语": result["comment"]
-            })
+            cache = os.path.join(summary_dir, f + ".summary.json")
+            if os.path.exists(cache):
+                summaries.append(json.load(open(cache, encoding="utf-8")))
+                continue
 
-        except Exception as ex:
-            print(f"❌ 失败: {d} -> {ex}")
+            try:
+                s = summarize_single_file(fp)
+                s["file"] = f
+                summaries.append(s)
+                json.dump(s, open(cache, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+            except Exception as e:
+                print(f"  ⚠ 跳过文件: {f} -> {e}")
+
+        if not summaries:
+            continue
+
+        # ---------- Stage 2 ----------
+        scores, total, comment = score_whole_work(summaries, locked_schema)
+
+        current_keys = list(scores.keys())
+
+        if locked_schema is None:
+            locked_schema = current_keys
+        else:
+            if set(current_keys) != set(locked_schema):
+                drift_warnings.append({
+                    "folder": folder,
+                    "missing": list(set(locked_schema) - set(current_keys)),
+                    "new": list(set(current_keys) - set(locked_schema))
+                })
+
+        row = {
+            "姓名": name,
+            "文件夹": folder,
+            "总分": total,
+            "评语": comment
+        }
+
+        # 🔒 只按 locked_schema 顺序展开
+        for k in locked_schema:
+            row[k] = scores.get(k, "")
+
+        records.append(row)
+
+    # ---------- 输出 ----------
+    if drift_warnings:
+        warn_path = os.path.join(root_dir, "ScoreItemDriftWarning.json")
+        json.dump(drift_warnings, open(warn_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+        print(f"\n⚠️ 评分项命名漂移报警（未改分）：{warn_path}")
 
     if records:
-        df = pd.DataFrame(records)
-        out_path = "./FinalScores.xlsx"
-        df.to_excel(out_path, index=False)
-        print(f"\n✅ 评分完成，已生成：{out_path}")
-
-# =========================================================
-# 6. 入口
-# =========================================================
-
-if __name__ == "__main__":
-    ROOT_DIR = r"./"   # 改成你的根目录
-    batch_score_to_excel(ROOT_DIR)
+        out = os.path.join(root_dir, "FinalScores.xlsx")
+        pd.DataFrame(records).to_excel(out, index=False)
+        print(f"\n✅ 已生成 {out}")

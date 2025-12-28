@@ -19,28 +19,30 @@ from ExamScore_PaperAndVideo.A05_02_RemoveDataFromComments import a05_02_remove_
 from ExamScore_PaperAndVideo.A05_03_FormToScorerTable import a05_03_form_to_score_table
 
 from ExamScore_PaperAndVideo.A06_01_Score2ChaoxingTable import a06_01_score2chaoxing_table
-
-from ExamScore_PaperAndVideo.B01_batch_deepseek_folder_scorer import batch_score_to_excel
-
-root_dir = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20251228_作品汇总与评分表_广州医科大学第三届研究生创新论坛\赛道1：科研成果交流与合作_广州医科大学第三届研究生创新论坛"
-
-include_video_subscript = 1
-include_formal_paper = 1
-
-start_up = 1
+from ExamScore_PaperAndVideo.B01_batch_deepseek_folder_scorer import batch_two_stage_score
 
 
-if start_up == 1:
-    a01_01_unzip_files(root_dir)
+def main():
+    root_dir = r"C:\MyDocument\ToDoList\D20_DoingPlatform\D20251228_作品汇总与评分表_广州医科大学第三届研究生创新论坛\赛道2：学术科技或社会实践活动成果_广州医科大学第三届研究生创新论坛"
 
-    if include_video_subscript:
-        # 如有视频汇报
-        a02_01_docx2txt(root_dir)
+    include_video_subscript = 1
 
-        batch_mp4_to_long_images(root_dir)
-        # a02_11_video_summary(root_dir)
+    start_up = 0
 
-        batch_pptx_to_long_images(root_dir)
-        # a03_02_ppt_scorer(root_dir)
+    print("🔥 main started")
 
-        batch_score_to_excel(root_dir)
+    if start_up == 1:
+        a01_01_unzip_files(root_dir)
+
+        if include_video_subscript:
+            a02_01_docx2txt(root_dir)
+            batch_mp4_to_long_images(root_dir)
+            batch_pptx_to_long_images(root_dir)
+
+    else:
+        print("🔥 running batch_two_stage_score")
+        batch_two_stage_score(root_dir)
+
+
+if __name__ == "__main__":
+    main()
